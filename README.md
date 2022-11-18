@@ -27,10 +27,17 @@
 
 ## 至此1-3步已经将CatLib整合进unity工程中去，后续如要对应的CatLib Framework的话，可进一步扩展
 
-## 导入【XLua](https://github.com/Tencent/xLua)
+## 导入[XLua](https://github.com/Tencent/xLua)
 
 本工程导入的是版本是：lua54_v2.1.16_with_silicon_support
 
 ## 导入[YooAsset](https://github.com/tuyoogame/YooAsset)资源管理框架
 
 本工程导入的是版本是：YooAsset 1.3.4
+
+
+********************* 2022-11-18 *********************
+
+## 导入[QFramework.UIKit](https://github.com/liangxiegame/UIKit)
+
+导入QFramework.UIKit，增加OpenPanel异步支持和集成YooAsset资源加载
