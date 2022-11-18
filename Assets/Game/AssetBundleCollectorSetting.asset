@@ -13,6 +13,42 @@ MonoBehaviour:
   m_Name: AssetBundleCollectorSetting
   m_EditorClassIdentifier: 
   ShowPackageView: 0
-  EnableAddressable: 0
+  EnableAddressable: 1
   UniqueBundleName: 0
-  Packages: []
+  Packages:
+  - PackageName: DefaultPackage
+    PackageDesc: 
+    Groups:
+    - GroupName: Builtin
+      GroupDesc: "\u9996\u5305\u8D44\u6E90"
+      AssetTags: builtin
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Game/UI/Images
+        CollectorGUID: f1c88ee49fde8e849afcbf9a78e7fc5e
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+      - CollectPath: Assets/Game/UI/Prefabs
+        CollectorGUID: 8b33c0d581346be458882454ab2f301a
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+      - CollectPath: Assets/Game/Scenes
+        CollectorGUID: bbf6f1a82f5e954438f971d9c835f431
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+      - CollectPath: Assets/Resources
+        CollectorGUID: 75bd8a4f8614d4e45b1bf855a7b280ec
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 

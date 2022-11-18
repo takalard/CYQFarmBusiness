@@ -11,7 +11,7 @@
 
 using CatLib;
 
-namespace Demo
+namespace CatLib.Game
 {
     public static class Providers
     {

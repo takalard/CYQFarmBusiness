@@ -12,7 +12,7 @@
 using CatLib;
 using UnityEngine;
 
-namespace Demo.Editor
+namespace CatLib.Game.Editor
 {
     public static class EditorBootstraps
     {

@@ -14,7 +14,7 @@ using CatLib.Editor;
 using CatLib.Util;
 using UnityEngine;
 
-namespace Demo.Editor
+namespace CatLib.Game.Editor
 {
     /// <summary>
     /// Main project entrance for editor.

@@ -1,7 +1,7 @@
 using UnityEngine;
 using CatLib;
 
-namespace Demo
+namespace CatLib.Game
 {
     public class ProviderFileSystem : IServiceProvider
     {

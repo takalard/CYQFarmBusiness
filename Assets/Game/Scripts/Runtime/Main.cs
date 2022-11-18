@@ -12,8 +12,9 @@
 using CatLib;
 using CatLib.Util;
 using UnityEngine;
+using YooAsset;
 
-namespace Demo
+namespace CatLib.Game
 {
     /// <summary>
     /// Main project entrance.
@@ -21,6 +22,11 @@ namespace Demo
     [DisallowMultipleComponent]
     public sealed class Main : Framework
     {
+        protected override void Start() 
+        { 
+            Debug.Log("Main Hello CatLib, Debug Level: 11111111111122");
+        }
+
         /// <inheritdoc />
         protected override void OnStartCompleted(IApplication application, StartCompletedEventArgs args)
         {

@@ -12,7 +12,7 @@
 using CatLib;
 using UnityEngine;
 
-namespace Demo
+namespace CatLib.Game
 {
     public static class Bootstraps
     {

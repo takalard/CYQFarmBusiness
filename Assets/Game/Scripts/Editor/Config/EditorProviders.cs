@@ -11,7 +11,7 @@
 
 using CatLib;
 
-namespace Demo.Editor
+namespace CatLib.Game.Editor
 {
     public static class Providers
     {
@@ -26,6 +26,7 @@ namespace Demo.Editor
                 return new IServiceProvider[]
                 {
                     // todo: Add a service provider for your project here.
+                    new ProviderFileSystem()
                 };
             }
         }
