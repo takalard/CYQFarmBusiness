@@ -27,6 +27,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using QFramework;
+using UnityEngine.UI;
 
 public class UIMenuPanelData : IUIData
 {
@@ -35,6 +36,9 @@ public class UIMenuPanelData : IUIData
 
 public partial class UIMenuPanel : UIPanel
 {
+	[SerializeField]
+	private Text _version;
+
 	protected override void OnInit(IUIData uiData = null)
 	{
 		//var color = default(Color);
@@ -45,7 +49,7 @@ public partial class UIMenuPanel : UIPanel
 		//{
 		//	Debug.Log(UIKit.GetPanel<UIMenuPanel>());
 		//}));
-		
+
 
 		//// 注册事件
 		//RegisterEvent(UIEventID.MenuPanel.ChangeMenuColor);
@@ -62,7 +66,8 @@ public partial class UIMenuPanel : UIPanel
 		//	UIKit.OpenPanel<UISettingPanel>(UILevel.PopUI,
 		//		prefabName: "Resources/UISettingPanel");
 		//});
-		
+		Debug.Log("UIMenuPanel ## OnInit # buildVersion = "+ Boot.Instance.buildVersion);
+		_version.text = Boot.Instance.gameVersion + "."+Boot.Instance.buildVersion;
 	}
 
 	IEnumerator Delay(float time, Action callback)

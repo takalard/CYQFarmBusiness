@@ -292,6 +292,7 @@ GameObject:
   - component: {fileID: 143826514607806275}
   - component: {fileID: 143826514607806272}
   - component: {fileID: 1966015811138433893}
+  - component: {fileID: 8223715542867295694}
   m_Layer: 0
   m_Name: UI_Patch
   m_TagString: Untagged
@@ -368,6 +369,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 33995e5763109614982fa36bf3ee74ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8223715542867295694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143826514607804606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d92fd634185584eb982e0ad93a13a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &143826514712242347
@@ -614,7 +627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4952585387315728543
 RectTransform:
   m_ObjectHideFlags: 0
@@ -635,7 +648,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 800, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8421786429426803288
@@ -825,7 +838,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 35204a17be9c96649b254d2bad80f4dd, type: 3}
+    m_Font: {fileID: 12800000, guid: 61ff286c26f11d144b922e4ad92019cb, type: 3}
     m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 0

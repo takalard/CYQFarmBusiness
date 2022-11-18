@@ -91,6 +91,7 @@ public class UI_Patch : UIPanel
 	/// </summary>
 	private void OnHandleEvent(IEventMessage msg)
 	{
+		Debug.Log("UI_Patch ## OnHandleEvent # msg = "+msg.GetType().ToString());
 		if (msg is PatchEventMessageDefine.PatchStatesChange)
 		{
 			var message = msg as PatchEventMessageDefine.PatchStatesChange;
@@ -180,6 +181,7 @@ public class UI_Patch : UIPanel
 		{
 			msgBox = new MessageBox();
 			var cloneObject = GameObject.Instantiate(_messageBoxObj, _messageBoxObj.transform.parent);
+			cloneObject.transform.localPosition = Vector3.zero;
 			msgBox.Create(cloneObject);
 			_msgBoxList.Add(msgBox);
 		}

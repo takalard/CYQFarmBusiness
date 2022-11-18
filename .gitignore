@@ -2,6 +2,10 @@ Library
 Temp
 Logs
 obj
+Bundles
+Sandbox
+Assets/StreamingAssets
+Assets/StreamingAssets.meta
 .vs
 .vsconfig
 ProjectSettings

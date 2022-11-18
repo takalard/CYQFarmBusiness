@@ -31,6 +31,10 @@ internal class FsmUpdateStaticVersion : IFsmNode
 		if (operation.Status == EOperationStatus.Succeed)
 		{
 			PatchUpdater.PackageVersion = operation.PackageVersion;
+            if (!string.IsNullOrEmpty(operation.PackageVersion))
+            {
+				Boot.Instance.buildVersion = operation.PackageVersion;
+			}
 			FsmManager.Transition(nameof(FsmUpdateManifest));
 		}
 		else

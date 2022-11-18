@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 185f6993d5150494d98da50e26cb1c25, type: 3}
   m_Name: AssetBundleCollectorSetting
   m_EditorClassIdentifier: 
-  ShowPackageView: 0
+  ShowPackageView: 1
   EnableAddressable: 1
   UniqueBundleName: 0
   Packages:
@@ -24,6 +24,25 @@ MonoBehaviour:
       AssetTags: builtin
       ActiveRuleName: EnableGroup
       Collectors:
+      - CollectPath: Assets/Resources
+        CollectorGUID: 75bd8a4f8614d4e45b1bf855a7b280ec
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+    - GroupName: GameRes
+      GroupDesc: "\u6E38\u620F\u8D44\u6E90"
+      AssetTags: GameRes
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/Game/Scenes
+        CollectorGUID: bbf6f1a82f5e954438f971d9c835f431
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
       - CollectPath: Assets/Game/UI/Images
         CollectorGUID: f1c88ee49fde8e849afcbf9a78e7fc5e
         CollectorType: 0
@@ -38,15 +57,8 @@ MonoBehaviour:
         PackRuleName: PackDirectory
         FilterRuleName: CollectAll
         AssetTags: 
-      - CollectPath: Assets/Game/Scenes
-        CollectorGUID: bbf6f1a82f5e954438f971d9c835f431
-        CollectorType: 0
-        AddressRuleName: AddressByFileName
-        PackRuleName: PackDirectory
-        FilterRuleName: CollectAll
-        AssetTags: 
-      - CollectPath: Assets/Resources
-        CollectorGUID: 75bd8a4f8614d4e45b1bf855a7b280ec
+      - CollectPath: Assets/Game/Fonts
+        CollectorGUID: dc60231eb09f44444be57482c9327257
         CollectorType: 0
         AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory

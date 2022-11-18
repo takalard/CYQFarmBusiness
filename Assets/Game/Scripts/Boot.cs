@@ -11,6 +11,9 @@ public class Boot : MonoBehaviour
 
 	public EPlayMode PlayMode = EPlayMode.EditorSimulateMode;
 
+	public string gameVersion = "v1.0";
+	public string buildVersion = "1000";
+
 	//[SerializeField]
 	//public GameObject UIRoot = null;
 
@@ -90,8 +93,7 @@ public class Boot : MonoBehaviour
 	private string GetHostServerURL()
 	{
 		//string hostServerIP = "http://10.0.2.2"; //安卓模拟器地址
-		string hostServerIP = "http://127.0.0.1";
-		string gameVersion = "v1.0";
+		string hostServerIP = "http://127.0.0.1:8080";
 
 #if UNITY_EDITOR
 		if (UnityEditor.EditorUserBuildSettings.activeBuildTarget == UnityEditor.BuildTarget.Android)
