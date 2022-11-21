@@ -41,3 +41,9 @@
 ## 导入[QFramework.UIKit](https://github.com/liangxiegame/UIKit)
 
 导入QFramework.UIKit，增加OpenPanel异步支持和集成YooAsset资源加载
+
+********************* 2022-11-24 *********************
+
+## 导入[DoTween](http://dotween.demigiant.com/download.php)
+
+ 导入DoTween，及XLua对其的绑定
