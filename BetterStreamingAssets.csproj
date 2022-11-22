@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D2203581-DBC1-7662-95B0-A53531E6F43D}</ProjectGuid>
+    <ProjectGuid>{27F3390E-01F3-DFBE-4356-F84C2F2AA0BA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>BetterStreamingAssets</AssemblyName>
