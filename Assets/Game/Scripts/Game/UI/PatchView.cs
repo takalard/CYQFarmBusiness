@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using QFramework;
 
-public class UI_Patch : UIPanel
+public class PatchView : UIPanel
 {
 	/// <summary>
 	/// 对话框封装类

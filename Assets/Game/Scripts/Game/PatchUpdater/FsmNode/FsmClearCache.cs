@@ -15,8 +15,7 @@ internal class FsmClearCache : IFsmNode
 
 	private void Operation_Completed(YooAsset.AsyncOperationBase obj)
 	{
-		Debug.Log("开始游戏！");
-		YooAsset.YooAssets.LoadSceneAsync("MainScene");
+		FsmManager.Transition(nameof(FsmLogin));
 	}
 
 	void IFsmNode.OnUpdate()

@@ -42,11 +42,11 @@ public class GameEntry : MonoBehaviour
 		//var uiCamera = //Boot.Instance.
 		//Camera.main.GetUniversalAdditionalCameraData().cameraStack.Add(Boot.Instance.UICamera);
 		//加载UI
-		UIKit.ClosePanel<UI_Patch>();
 		//异步方法
-		UIKit.OpenPanel<UIMenuPanel>((_UIMenuPanel)=> {
-			Debug.Log("GameEntry ## 33333333333333333333 ## OnCompleted #");
-		},prefabName:"UI_Menu");
+		//UIKit.OpenPanel<LoginView>((_UIMenuPanel)=> {
+		//	Debug.Log("GameEntry ## 33333333333333333333 ## OnCompleted #");
+		//	UIKit.ClosePanel<PatchView>();
+		//},prefabName:"LoginView");
 	}
 
 	private void OnHandleGame()

@@ -28,53 +28,41 @@ using System.Collections;
 using UnityEngine;
 using QFramework;
 using UnityEngine.UI;
+using DG.Tweening;
+using System.Collections.Generic;
 
-public class UIMenuPanelData : IUIData
+public class MainViewData : IUIData
 {
 	// TODO: Query
 }
 
-public partial class UIMenuPanel : UIPanel
+public partial class MainView : UIPanel
 {
-	[SerializeField]
-	private Text _version;
+	//[SerializeField]
+	//private GameObject goGlow;
+
+	private Button Btn_Home;
+	private Button Btn_Achievement;
+	private Button Btn_Notice;
+	private Button Btn_FreeGem;
 
 	protected override void OnInit(IUIData uiData = null)
 	{
-		//var color = default(Color);
-		//ColorUtility.TryParseHtmlString("#FFFFFFFF", out color);
-		//ImageBg.color = color;
-
-		//StartCoroutine(Delay(0.1f, () =>
-		//{
-		//	Debug.Log(UIKit.GetPanel<UIMenuPanel>());
-		//}));
-
-
+		List<string> btnsName = new List<string>();
+		btnsName.Add("ButtonList/Btn_Home");
+		btnsName.Add("ButtonList/Btn_Achievement");
+		btnsName.Add("ButtonList/Btn_Notice");
+		btnsName.Add("ButtonList/Btn_FreeGem");
+		foreach (string btnName in btnsName)
+        {
+			GameObject btnObj = GameObject.Find(btnName);
+			Button btn = btnObj.GetComponent<Button>();
+			btn.onClick.AddListener(delegate () {
+				this.OnButtonClick(btnObj);
+			});
+		}
 		//// 注册事件
 		//RegisterEvent(UIEventID.MenuPanel.ChangeMenuColor);
-
-		//BtnPlay.onClick.AddListener(() =>
-		//{
-		//	UIKit.OpenPanel<UISectionPanel>(UILevel.Common, prefabName: "resources://UISectionPanel");
-		//	// this.DoTransition<UISectionPanel>(new FadeInOut(), UILevel.Common,
-		//	// prefabName: "Resources/UISectionPanel");
-		//});
-
-		//BtnSetting.onClick.AddListener(() =>
-		//{
-		//	UIKit.OpenPanel<UISettingPanel>(UILevel.PopUI,
-		//		prefabName: "Resources/UISettingPanel");
-		//});
-		Debug.Log("UIMenuPanel ## OnInit # buildVersion = "+ Boot.Instance.buildVersion);
-		_version.text = Boot.Instance.gameVersion + "."+Boot.Instance.buildVersion;
-	}
-
-	IEnumerator Delay(float time, Action callback)
-	{
-		yield return new WaitForSeconds(time);
-
-		callback();
 	}
 
 	protected override void ProcessMsg(int eventId, QMsg msg)
@@ -95,4 +83,9 @@ public partial class UIMenuPanel : UIPanel
 	{
 
 	}
+
+	private void OnButtonClick(GameObject sender)
+    {
+		Debug.Log("MainView ## OnButtonClick # sender.name = "+sender.name);
+    }
 }

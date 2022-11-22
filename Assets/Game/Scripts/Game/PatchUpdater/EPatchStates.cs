@@ -28,4 +28,9 @@ public enum EPatchStates
 	/// 补丁流程完毕
 	/// </summary>
 	PatchDone,
+
+	/// <summary>
+	/// 主任务
+	/// </summary>
+	MainMission,
 }
