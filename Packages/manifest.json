@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.focus-creative-games.hybridclr_unity": "https://gitee.com/focus-creative-games/hybridclr_unity.git",
     "com.tuyoogame.yooasset": "1.3.4",
     "com.unity.collab-proxy": "1.17.0",
     "com.unity.ide.rider": "2.0.7",

@@ -59,3 +59,9 @@
 ## 实现部分UI
 
  实现主界面UI及对应的流程
+
+  ********************* 2022-11-30 *********************
+
+## 移除XLua，添加[HybridCLR](https://gitee.com/focus-creative-games/hybridclr_unity)
+
+ 移除XLua，添加HybridCLR，为了方便写代码及开发方便，尝试用HybridCLR
