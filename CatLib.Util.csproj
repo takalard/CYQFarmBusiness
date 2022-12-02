@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{27F3390E-01F3-DFBE-4356-F84C2F2AA0BA}</ProjectGuid>
+    <ProjectGuid>{ED4DDDC6-04F9-8E22-8F36-F26889C658A3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>BetterStreamingAssets</AssemblyName>
+    <AssemblyName>CatLib.Util</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -56,13 +56,25 @@
     <Analyzer Include="D:\Program\dev\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\BetterStreamingAssets\Runtime\BSA_PathUtil.cs" />
-    <Compile Include="Assets\Plugins\BetterStreamingAssets\Runtime\BSA_BetterStreamingAssets.cs" />
-    <Compile Include="Assets\Plugins\BetterStreamingAssets\Runtime\BSA_SubReadOnlyStream.cs" />
-    <Compile Include="Assets\Plugins\BetterStreamingAssets\Runtime\BSA_ZipArchive.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Exception\CodeStandardException.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Attribute\PriorityAttribute.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Template\Managed.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\FilterChain\FilterChain.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Exception\RuntimeException.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Template\ISingleManaged.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Template\SingleManaged.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Template\SingleManager.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Template\IManaged.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\FilterChain\IFilterChain.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Template\Manager.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Guard\GuardExt.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Attribute\ExcludeFromCodeCoverageAttribute.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Template\ISingleManager.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\IServiceProviderType.cs" />
+    <Compile Include="Assets\CatLib\CatLib.Util\Template\IManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Plugins\BetterStreamingAssets\Runtime\BetterStreamingAssets.asmdef" />
+    <None Include="Assets\CatLib\CatLib.Util\CatLib.Util.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
