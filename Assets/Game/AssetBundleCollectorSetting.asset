@@ -71,3 +71,10 @@ MonoBehaviour:
         PackRuleName: PackDirectory
         FilterRuleName: CollectAll
         AssetTags: 
+      - CollectPath: Assets/Game/Configs
+        CollectorGUID: 572ad0f0e4cd0fe4aa5f3614335e069c
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 

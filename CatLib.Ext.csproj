@@ -94,6 +94,7 @@
     <Compile Include="Assets/CatLib/CatLib.Ext/Framework/Json/3rd/LitJson/JsonMapper.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/Framework.API/FileSystem/Internal/IFile.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/QFrameworkUI/UIKit.cs" />
+    <Compile Include="Assets/CatLib/CatLib.Ext/SerializableDictionary/SerializableHashSet.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/Framework.API/Debugger/LogLevels.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/Framework/Debugger/Log/ILogEntry.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/Framework.API/Routing/EventArgs/DispatchEventArgs.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Assets/CatLib/CatLib.Ext/Exception/RuntimeException.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/Framework/Routing/Request.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/Framework/Debugger/Log/Logger.cs" />
+    <Compile Include="Assets/CatLib/CatLib.Ext/SerializableDictionary/SerializableDictionary.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/QFrameworkUI/UIDefaultPanel.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/Framework/Debugger/WebConsole/BaseProtocol.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/Framework.API/Routing/Internal/IResponse.cs" />
@@ -171,6 +173,7 @@
     <Compile Include="Assets/CatLib/CatLib.Ext/Framework/Routing/RoutingProvider.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/QFrameworkUI/UIKitConfig.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/QFrameworkUI/Extension/QUICameraUtil.cs" />
+    <Compile Include="Assets/CatLib/CatLib.Ext/Framework/Json/JsonConfig.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/Framework/Routing/Router.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/Framework/Routing/Scheme.cs" />
     <Compile Include="Assets/CatLib/CatLib.Ext/QFrameworkUI/CodeGen/Code/RootCode.cs" />
@@ -484,6 +487,9 @@
     <Reference Include="DOTweenEditor">
       <HintPath>Assets/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>Assets/Editor/Excel/NPOI/NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
@@ -495,6 +501,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>Assets/Editor/Excel/NPOI/NPOI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
@@ -511,14 +520,26 @@
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>Assets/Editor/Excel/NPOI/NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>Assets/Editor/Excel/NPOI/BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
       <HintPath>Library/PackageCache/com.unity.render-pipelines.core@10.10.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>Assets/Editor/Excel/NPOI/NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.17.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.41f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

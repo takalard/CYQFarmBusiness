@@ -66,6 +66,21 @@ public partial class MainView : UIPanel
 		}
 		//// 注册事件
 		//RegisterEvent(UIEventID.MenuPanel.ChangeMenuColor);
+		UpdateMissionLevels();
+	}
+
+	private void UpdateMissionLevels()
+    {
+		//打印所有坐标
+		var tbMissions = JsonConfigManager.Config["Missions"];
+		//var rowMissions = tbMissions[1];
+		//Debug.Log("rowMissions ==== MapId = " + rowMissions["MapId"] + " Levels = " + rowMissions["Levels"]);
+		foreach(var rowMission in tbMissions)
+		{
+			Debug.Log("rowMissions ==== MapId = " + rowMission["MapId"] + " Levels = " + rowMission["Levels"]);
+			//var 
+		}
+
 	}
 
 	protected override void ProcessMsg(int eventId, QMsg msg)

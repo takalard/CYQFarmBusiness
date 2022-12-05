@@ -990,7 +990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3668692742338436166
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 7341672648306247755, guid: 248c46eb0aad44df1adb95ae56a490a4, type: 3}
-  totalCount: 9
+  totalCount: 2
 --- !u!1 &6245250699605196148
 GameObject:
   m_ObjectHideFlags: 0

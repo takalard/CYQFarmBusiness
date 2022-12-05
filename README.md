@@ -65,3 +65,17 @@
 ## 移除XLua，添加[HybridCLR](https://gitee.com/focus-creative-games/hybridclr_unity)
 
  移除XLua，添加HybridCLR，为了方便写代码及开发方便，尝试用HybridCLR
+
+   ********************* 2022-12-6 *********************
+
+## 实现配置工具
+
+1、测试了基于HybridCLR的dll热更【ok】；
+2、实现配置工具：ExcelToJson,JsonToExcel并集成在菜单Tools中；
+3、将配置数据Configs添加到YooAssets资源打包中，实现主界面关卡数据读配置表。
+
+
+
+
+
+

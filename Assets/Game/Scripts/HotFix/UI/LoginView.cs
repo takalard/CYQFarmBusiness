@@ -110,6 +110,7 @@ public partial class LoginView : UIPanel
 	public void OnStartGame()
     {
 		Debug.Log("LoginView ## OnStartGame #");
+		JsonConfigManager.Config.InitConfig();
 		GameFsmManager.Transition(nameof(FsmMain));
     }
 }
