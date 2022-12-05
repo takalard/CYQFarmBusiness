@@ -11,7 +11,7 @@ namespace QFramework
 
         public void Push<T>() where T : UIPanel
         {
-            Push(UIKit.GetPanel<T>());
+            Push(XUIKit.GetPanel<T>());
         }
 
         public void Push(IPanel view)

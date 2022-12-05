@@ -27,7 +27,7 @@ using UnityEngine;
 
 namespace QFramework
 {
-    public class UIKit
+    public class XUIKit
     {
         public static UIKitConfig Config = new UIKitConfig();
 

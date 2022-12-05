@@ -13,9 +13,9 @@ internal class FsmLogin : IFsmNode
 		//var operation = YooAsset.YooAssets.LoadSceneAsync("MainScene");
 		//operation.Completed += OnCompleted;
 
-		UIKit.OpenPanel<LoginView>((_LoginView_) => {
+		XUIKit.OpenPanel<LoginView>((_LoginView_) => {
 			Debug.Log("FsmLogin ## 33333333333333333333 ## OnCompleted #");
-			UIKit.ClosePanel<PatchView>();
+			XUIKit.ClosePanel<PatchView>();
 		}, prefabName: "LoginView");
 	}
 

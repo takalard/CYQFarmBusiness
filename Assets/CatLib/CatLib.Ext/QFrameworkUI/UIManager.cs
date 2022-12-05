@@ -58,7 +58,7 @@ namespace QFramework
         {
             if (panelSearchKeys.OpenType == PanelOpenType.Single)
             {
-                var retPanel = UIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).FirstOrDefault();
+                var retPanel = XUIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).FirstOrDefault();
 
                 if (retPanel == null)
                 {
@@ -82,7 +82,7 @@ namespace QFramework
         {
             if (panelSearchKeys.OpenType == PanelOpenType.Single)
             {
-                var retPanel = UIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).FirstOrDefault();
+                var retPanel = XUIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).FirstOrDefault();
 
                 if (retPanel == null)
                 {
@@ -109,7 +109,7 @@ namespace QFramework
         /// <param name="uiBehaviourName"></param>
         public void ShowUI(PanelSearchKeys panelSearchKeys)
         {
-            var retPanel = UIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).FirstOrDefault();
+            var retPanel = XUIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).FirstOrDefault();
 
             if (retPanel != null)
             {
@@ -123,7 +123,7 @@ namespace QFramework
         /// <param name="uiBehaviourName"></param>
         public void HideUI(PanelSearchKeys panelSearchKeys)
         {
-            var retPanel = UIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).FirstOrDefault();
+            var retPanel = XUIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).FirstOrDefault();
 
             if (retPanel != null)
             {
@@ -136,14 +136,14 @@ namespace QFramework
         /// </summary>
         public void CloseAllUI()
         {
-            foreach (var layer in UIKit.Table)
+            foreach (var layer in XUIKit.Table)
             {
                 layer.Close();
                 layer.Info.Recycle2Cache();
                 layer.Info = null;
             }
 
-            UIKit.Table.Clear();
+            XUIKit.Table.Clear();
         }
 
         /// <summary>
@@ -151,7 +151,7 @@ namespace QFramework
         /// </summary>
         public void HideAllUI()
         {
-            foreach (var panel in UIKit.Table)
+            foreach (var panel in XUIKit.Table)
             {
                 panel.Hide();
             }
@@ -163,12 +163,12 @@ namespace QFramework
         /// <param name="behaviourName"></param>
         public void CloseUI(PanelSearchKeys panelSearchKeys)
         {
-            var panel = UIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).LastOrDefault();
+            var panel = XUIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).LastOrDefault();
 
             if (panel as UIPanel)
             {
                 panel.Close();
-                UIKit.Table.Remove(panel);
+                XUIKit.Table.Remove(panel);
                 panel.Info.Recycle2Cache();
                 panel.Info = null;
             }
@@ -176,11 +176,11 @@ namespace QFramework
 
         public void RemoveUI(PanelSearchKeys panelSearchKeys)
         {
-            var panel = UIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).FirstOrDefault();
+            var panel = XUIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).FirstOrDefault();
 
             if (panel != null)
             {
-                UIKit.Table.Remove(panel);
+                XUIKit.Table.Remove(panel);
             }
         }
 
@@ -191,7 +191,7 @@ namespace QFramework
         /// <returns></returns>
         public UIPanel GetUI(PanelSearchKeys panelSearchKeys)
         {
-            return UIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).FirstOrDefault() as UIPanel;
+            return XUIKit.Table.GetPanelsByPanelSearchKeys(panelSearchKeys).FirstOrDefault() as UIPanel;
         }
 
         public override int ManagerId
@@ -201,18 +201,18 @@ namespace QFramework
 
         public IPanel CreateUI(PanelSearchKeys panelSearchKeys)
         {
-            var panel = UIKit.Config.LoadPanel(panelSearchKeys);
+            var panel = XUIKit.Config.LoadPanel(panelSearchKeys);
 
-            UIKit.Root.SetLevelOfPanel(panelSearchKeys.Level, panel);
+            XUIKit.Root.SetLevelOfPanel(panelSearchKeys.Level, panel);
 
-            UIKit.Config.SetDefaultSizeOfPanel(panel);
+            XUIKit.Config.SetDefaultSizeOfPanel(panel);
 
             panel.Transform.gameObject.name = panelSearchKeys.GameObjName ?? panelSearchKeys.PanelType.Name;
 
             panel.Info = PanelInfo.Allocate(panelSearchKeys.GameObjName, panelSearchKeys.Level, panelSearchKeys.UIData,
                 panelSearchKeys.PanelType, panelSearchKeys.AssetBundleName);
             
-            UIKit.Table.Add(panel);
+            XUIKit.Table.Add(panel);
 
             panel.Init(panelSearchKeys.UIData);
 
@@ -221,18 +221,18 @@ namespace QFramework
 
         public void CreateUI(PanelSearchKeys panelSearchKeys,System.Action<IPanel> OnCompleted)
         {
-            UIKit.Config.LoadPanelAsync(panelSearchKeys,(panel)=> {
+            XUIKit.Config.LoadPanelAsync(panelSearchKeys,(panel)=> {
 
-                UIKit.Root.SetLevelOfPanel(panelSearchKeys.Level, panel);
+                XUIKit.Root.SetLevelOfPanel(panelSearchKeys.Level, panel);
 
-                UIKit.Config.SetDefaultSizeOfPanel(panel);
+                XUIKit.Config.SetDefaultSizeOfPanel(panel);
 
                 panel.Transform.gameObject.name = panelSearchKeys.GameObjName ?? panelSearchKeys.PanelType.Name;
 
                 panel.Info = PanelInfo.Allocate(panelSearchKeys.GameObjName, panelSearchKeys.Level, panelSearchKeys.UIData,
                     panelSearchKeys.PanelType, panelSearchKeys.AssetBundleName);
 
-                UIKit.Table.Add(panel);
+                XUIKit.Table.Add(panel);
 
                 panel.Init(panelSearchKeys.UIData);
 

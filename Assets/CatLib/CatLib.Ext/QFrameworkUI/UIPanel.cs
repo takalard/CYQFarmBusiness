@@ -127,7 +127,7 @@ namespace QFramework
 
 			var panelInterface = this as IPanel;
 			panelInterface.Loader.Unload();
-			UIKit.Config.PanelLoaderPool.RecycleLoader(panelInterface.Loader);
+			XUIKit.Config.PanelLoaderPool.RecycleLoader(panelInterface.Loader);
 			panelInterface.Loader = null;
 
 			mUIData = null;
@@ -135,12 +135,12 @@ namespace QFramework
 
 		protected void CloseSelf()
 		{
-			UIKit.ClosePanel(this);
+			XUIKit.ClosePanel(this);
 		}
 
 		protected void Back()
 		{
-			UIKit.Back(name);
+			XUIKit.Back(name);
 		}
 
 		/// <summary>

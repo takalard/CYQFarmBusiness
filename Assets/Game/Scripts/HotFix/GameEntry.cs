@@ -38,8 +38,6 @@ public class GameEntry : MonoBehaviour
 	void Start()
 	{
 		GameFsmUpdater.Run();
-
-		GameFsmManager.Transition(nameof(FsmLogin));
 	}
 
 	private void OnHandleGame()

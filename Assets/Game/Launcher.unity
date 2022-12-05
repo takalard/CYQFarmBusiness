@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
+  m_IndirectSpecularColor: {r: 0.5651622, g: 0.6357221, b: 0.72196895, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -894,9 +894,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 768e1fb1bc1d78848b5f3a41c68aceda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayMode: 2
+  PlayMode: 0
   gameVersion: v1.0
-  buildVersion: 1000
+  buildVersion: 10000
 --- !u!114 &2114763495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -984,7 +984,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1.6159245e-20, z: 4.5905e-41, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 7e-45, w: 1.9826e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0

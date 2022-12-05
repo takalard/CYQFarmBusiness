@@ -15,7 +15,7 @@ internal class FsmPatchInit : IFsmNode
 		//newGo.transform.parent = Boot.Instance.UIRoot.transform;
 		//newGo.transform.localPosition = new Vector3(0,0,0);
 
-		UIKit.OpenPanel<PatchView>(prefabName: "PatchView");
+		XUIKit.OpenPanel<PatchView>(prefabName: "PatchView");
 
         Boot.Instance.StartCoroutine(Begin());
 		
