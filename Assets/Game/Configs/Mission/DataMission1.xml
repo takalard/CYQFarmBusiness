@@ -1,0 +1,22 @@
+﻿<Missions level="1">
+
+  <Target startMoney="500" timeMission="7"/>
+    <Star twoStar="100" threeStar="200" reward="1-2-3"/>
+
+  <Farm>
+    <Field id="1" startNumber="2"/>
+    <Seed id="1" targetPlant="1"/>
+  </Farm>
+
+  <Factory countPosition="2">
+    <Machine id="1"/>
+  </Factory>
+
+  <Shop>
+    <Product id="7" targetProduction="1"/>
+  </Shop>
+
+  <City>
+  </City>
+</Missions>
+

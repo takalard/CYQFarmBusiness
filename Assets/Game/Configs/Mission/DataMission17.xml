@@ -1,0 +1,52 @@
+<Missions level="17">
+
+  <Target startMoney="560" timeMission="20" startScreen="3" maxCustomer="75"/>
+  <Tip text="Bạn hãy sản xuất những sản phẩm có trong shop." text1="You should produce products which available in the shop."/>
+  <Star twoStar="4000" threeStar="5500" reward="1-2-3"/>
+
+  <Farm>
+    <Field id="1" startNumber="11" maxLevel="2"/>
+    <Field id="2" startNumber="5" maxLevel="2"/>
+    <Field id="3" startNumber="3" maxLevel="2"/>
+    <Seed id="1" startNumber="8"/>
+	<Seed id="4" startNumber="3"/>
+    <Seed id="7" startNumber="5"/> 
+	<Seed id="8" startNumber="3"/>
+  </Farm>
+
+  <Factory countPosition="5">
+    <Machine id="1" startNumber="2" startLevel="2" maxLevel="2"/>
+	<Machine id="2" startNumber="1"/>
+    <Machine id="3"/>
+    <Machine id="4" startNumber="2"/>	
+  </Factory>
+
+  <Shop>
+    <Product id="7" startNumber="8" numberRequest="15"/>
+	<Product id="10" startNumber="8" numberRequest="15"/>
+	<Product id="12" startNumber="8" numberRequest="15"/>
+	<Product id="17"/>
+    <Product id="19" startNumber="8" numberRequest="15"/>
+    <Product id="22" startNumber="8" numberRequest="15"/>
+	<Weather startNumber="true" targetItem="14"/>
+  </Shop>
+
+<City>
+    <Building id="0" name="staffhouse" fail="true">
+      <Staff id="1"/>
+      <Staff id="2"/>
+      <Staff id="3"/>
+	</Building>
+	
+	 <Building id="3" name="research">
+      <Forms id="0"/>
+    </Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+	
+	<Building id="5" name="technology">
+    </Building>
+	
+</City>
+  </Missions>

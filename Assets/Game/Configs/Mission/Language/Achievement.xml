@@ -1,0 +1,116 @@
+<Achievement>
+  <group level ="1">
+    <child level="1" title="First Times" detail1="First Times to Send Heart" detail2="Gửi tim lần đầu tiên" target="1" reward="1"/>
+    <child level="2" title="Make A Relationship" detail1="Send Heart To Friend 100 Times" detail2="Gửi 100 tim cho bạn bè" target="100" reward="2"/>
+    <child level="3" title="We Stronger Together" detail1="Send Heart To Friend 500 Times" detail2="Gửi 500 tim cho bạn bè" target="500" reward="5"/>
+    <child level="4" title="Best Friend For Ever" detail1="Send Heart To Friend 1000 Times" detail2="Gửi 1000 tim cho bạn bè" target="1000" reward="10"/>
+  </group>
+  <group level ="2">
+    <child level="1" title="Newbie" detail1="Collect 20 Stars" detail2="Kiếm được 20 sao" target="20" reward="5"/>
+    <child level="2" title="Amatuer Manager" detail1="Collect 50 Stars" detail2="Kiếm được 50 sao" target="50" reward="10"/>
+    <child level="3" title="Professional Manager" detail1="Collect 100 Stars" detail2="Kiếm được 100 sao" target="100" reward="15"/>
+    <child level="4" title="Big Bussinessman" detail1="Collect 200 Stars" detail2="Kiếm được 200 sao" target="200" reward="20"/>
+    <child level="5" title="Farmer Tycoon" detail1="Collect 300 Stars" detail2="Kiếm được 300 sao" target="300" reward="30"/>
+  </group>
+  <group level ="3">
+    <child level="1" title="Try Again" detail1="First Times To Retry Mission" detail2="Chơi lại nhiệm vụ lần đầu tiên" target="1" reward="1"/>
+    <child level="2" title="I Can't Lose" detail1="Retry Mission 20 Times" detail2="Chơi lại nhiệm vụ 20 lần" target="20" reward="2"/>
+    <child level="3" title="Hardest Mission" detail1="Retry Mision 50 Times" detail2="Chơi lại nhiệm vụ 50 lần" target="50" reward="4"/>
+  </group>
+  <group level ="4">
+    <child level="1" title="Spend Diamonds" detail1="Use Diamonds 10 Times" detail2="Sử dụng kim cương 10 lần" target="10" reward="1"/>
+    <child level="2" title="Can't Wait" detail1="Use Diamonds 50 Times" detail2="Sử dụng kim cương  50 lần" target="50" reward="5"/>
+    <child level="3" title="Don't Waste My Times" detail1="Use Diamonds 100 Times" detail2="Sử dụng kim cương  100 lần" target="100" reward="10"/>
+  </group>
+  <group level ="5">
+    <child level="1" title="Richman" detail1="Use 50 Diamonds In Game" detail2="Sử dụng 50 kim cương" target="50" reward="2"/>
+    <child level="2" title="Millionaire" detail1="Use 100 Diamonds In Game" detail2="Sử dụng 100 kim cương" target="100" reward="5"/>
+    <child level="3" title="Billionaire" detail1="Use 500 Diamonds In Game" detail2="Sử dụng 500 kim cương" target="500" reward="10"/>
+  </group>
+  <group level ="6">
+    <child level="1" title="Lucky Spin" detail1="First Times To Try Lucky Wheel" detail2="Quay vòng quay may mắn lần đầu tiên" target="1" reward="1"/>
+    <child level="2" title="Again And Again" detail1="Spin Lucky Wheel 50 Times" detail2="Quay vòng quay may mắn 50 lần" target="50" reward="3"/>
+    <child level="3" title="Try This All Day" detail1="Spin Lucky Wheel 200 Times" detail2="Quay vòng quay may mắn 200 lần" target="200" reward="5"/>
+  </group>
+  <group level ="7">
+    <child level="1" title="Bread I" detail1="Sell 50 Breads" detail2="Bán được 50 cái bánh mì" target="50" reward="1"/>
+    <child level="2" title="Bread II" detail1="Sell 300 Breads" detail2="Bán được 300 cái bánh mì" target="300" reward="3"/>
+    <child level="3" title="Bread III" detail1="Sell 500 Breads" detail2="Bán được 800 cái bánh mì" target="800" reward="5"/>
+  </group>
+  <group level ="8">
+    <child level="1" title="Milky I" detail1="Sell 100 Milk Bottles" detail2="Bán được 100 bình sữa" target="100" reward="1"/>
+    <child level="2" title="Milky II" detail1="Sell 300 Milk Bottles" detail2="Bán được 300 bình sữa" target="300" reward="3"/>
+    <child level="3" title="Milky III" detail1="Sell 800 Milk Bottles" detail2="Bán được 800 bình sữa" target="800" reward="5"/>
+  </group>
+  <group level ="9">
+    <child level="1" title="Sweet Strawberry I" detail1="Sell 100 Strawberry Milk Bottles" detail2="Bán được 100 bình sữa dâu" target="100" reward="1"/>
+    <child level="2" title="Sweet Strawberry II" detail1="Sell 200 Strawberry Milk Bottles" detail2="Bán được 200 bình sữa" target="200" reward="3"/>
+    <child level="3" title="Sweet Strawberry III" detail1="Sell 500 Strawberry Milk Bottles" detail2="Bán được 500 bình sữa dâu" target="500" reward="5"/>
+  </group>
+  <group level ="10">
+    <child level="1" title="Chicken Farmer I" detail1="Sell 50 Grilled Chickens" detail2="Bán được 50 con gà quay" target="50" reward="1"/>
+    <child level="2" title="Chicken Farmer II" detail1="Sell 200 Grilled Chickens" detail2="Bán được 200 con gà quay" target="200" reward="3"/>
+    <child level="3" title="Chicken Farmer III" detail1="Sell 500 Grilled Chickens" detail2="Bán được 500 con gà quay" target="500" reward="5"/>
+  </group>
+  <group level ="11">
+    <child level="1" title="Standard Service" detail1="Serve 500 Customers" detail2="Phục vụ 500 khách hàng" target="500" reward="1"/>
+	<child level="2" title="Top Service" detail1="Serve 1500 Customers" detail2="Phục vụ 1500 khách hàng" target="1500" reward="3"/>
+    <child level="3" title="Master Of Service" detail1="Serve 3000 Customers" detail2="Thu hút 3000 khách hàng" target="3000" reward="5"/>
+  </group>
+  <group level ="12">
+    <child level="1" title="Take A Trip I" detail1="First Times To Take A Practical Trip" detail2="Thực hiện 1 chuyến đi khảo sát thực tế" target="1" reward="1"/>
+    <child level="2" title="Take A Trip II" detail1="Take Practical Trip 200 Times" detail2="Thực hiện 200 chuyến đi khảo sát thực tế" target="200" reward="3"/>
+    <child level="3" title="Take A Trip III" detail1="Take Practical Trip 500 Times" detail2="Thực hiện 500 chuyến đi khảo sát thực tế" target="500" reward="5"/>
+  </group>
+  <group level ="13">
+    <child level="1" title="We Need Help I" detail1="First Times To Use Research Company Method" detail2="Thuê công ty khảo sát thực tế 1 lần" target="1" reward="1"/>
+    <child level="2" title="We Need Help II" detail1="Use Research Company Method 200 Times" detail2="Thuê công ty khảo sát thực tế 200 lần" target="200" reward="3"/>
+    <child level="3" title="We Need Help III" detail1="Use Research Company Method 500 Times" detail2="Thuê công ty khảo sát thực tế 500 lần" target="500" reward="5"/>
+  </group>
+  <group level ="14">
+    <child level="1" title="100 Percent I" detail1="First Times To Use Specialist Method" detail2="Hỏi ý kiến chuyên gia 1 lần" target="1" reward="1"/>
+    <child level="2" title="100 Percent II" detail1="Use Specialist Method 100 Times" detail2="Hỏi ý kiến chuyên gia 100 lần" target="100" reward="3"/>
+    <child level="3" title="100 Percent III" detail1="Use Specialist Method 200 Times" detail2="Hỏi ý kiến chuyên gia 200 lần" target="200" reward="5"/>
+  </group>
+  <group level ="15">
+    <child level="1" title="Take Care Of Weather I" detail1="Send Gift To 100 Customers" detail2="Tặng quà cho 100 vị khách" target="100" reward="1"/>
+    <child level="2" title="Take Care Of Weather II" detail1="Send Gift To 500 Customers" detail2="Tặng quà cho 500 vị khách" target="500" reward="3"/>
+    <child level="3" title="Take Care Of Weather III" detail1="Send Gift To 1000 Customers" detail2="Tặng quà cho 1000 vị khách" target="1000" reward="5"/>
+  </group>
+  <group level ="16">
+    <child level="1" title="Fish Farmer I" detail1="Sell 50 Grilled Fishes" detail2="Bán được 50 con cá nướng" target="50" reward="1"/>
+    <child level="2" title="Fish Farmer II" detail1="Sell 200 Grilled Fishes" detail2="Bán được 200 con cá nướng" target="200" reward="3"/>
+    <child level="3" title="Fish Farmer III" detail1="Sell 500 Grilled Fishes" detail2="Bán được 500 con cá nướng" target="500" reward="5"/>
+  </group>
+  <group level ="17">
+    <child level="1" title="Hamburger King I" detail1="Sell 100 Hamburgers" detail2="Bán được 100 bánh Hamburger" target="100" reward="1"/>
+    <child level="2" title="Hamburger King II" detail1="Sell 500 Hamburgers" detail2="Bán được 500 bánh Hamburger" target="500" reward="3"/>
+    <child level="3" title="Hamburger King III" detail1="Sell 1000 Hamburgers" detail2="Bán được 1000 bánh Hamburger" target="1000" reward="5"/>
+  </group>
+  <group level ="18">
+    <child level="1" title="Fruit Farmer I" detail1="Sell 100 Bunch Of Grapes" detail2="Bán được 100 chùm nho" target="100" reward="1"/>
+    <child level="2" title="Fruit Farmer II" detail1="Sell 500 Bunch Of Grapes" detail2="Bán được 500 chùm nho" target="500" reward="3"/>
+    <child level="3" title="Fruit Farmer II" detail1="Sell 1000 Bunch Of Grapes" detail2="Bán được 1000 chùm nho" target="1000" reward="5"/>
+  </group>
+  <group level ="19">
+    <child level="1" title="Dream Farm I" detail1="Earn 500.000 Golds" detail2="Kiếm được 500.000 vàng từ các nhiệm vụ" target="500000" reward="2"/>
+    <child level="2" title="Dream Farm II" detail1="Earn 1.000.000 Golds" detail2="Kiếm được 1.000.000 vàng từ các nhiệm vụ" target="1000000" reward="5"/>
+    <child level="3" title="Dream Farm III" detail1="Earn 2.000.000 Golds" detail2="Kiếm được 2.000.000 vàng từ các nhiệm vụ" target="2000000" reward="10"/>
+  </group>
+  <group level ="20">
+    <child level="1" title="Happiness I" detail1="Customer's Rate Is 500 Stars" detail2="Độ hài lòng khách hàng đạt 500 sao" target="500" reward="2"/>
+    <child level="2" title="Happiness II" detail1="Customer's Rate Is 2000 Stars" detail2="Độ hài lòng khách hàng đạt 2000 sao" target="2000" reward="5"/>
+    <child level="3" title="Happiness III" detail1="Customer's Rate Is 4000 Stars" detail2="Độ hài lòng khách hàng đạt 4000 sao" target="4000" reward="7"/>
+  </group>
+  <group level ="21">
+    <child level="1" title="Hard Work I" detail1="Total Time In Game Is 180 Days" detail2="Tổng thời gian chơi đạt 180 ngày" target="180" reward="1"/>
+    <child level="2" title="Hard Work II" detail1="Total Time In Game Is 360 Days" detail2="Tổng thời gian chơi đạt 360 ngày" target="360" reward="3"/>
+    <child level="3" title="Hard Work III" detail1="Total Time In Game Is 720 Days" detail2="Tổng thời gian chơi đạt 720 ngày" target="720" reward="5"/>
+	<child level="3" title="This Is My Life" detail1="Total Time In Game Is 1000 Days" detail2="Tổng thời gian chơi đạt 1000 ngày" target="1000" reward="10"/>
+  </group>
+  <group level ="22">
+    <child level="1" title="Invite Friend I" detail1="Send Request To 30 Friends" detail2="Gửi lời mời đến 30 bạn bè" target="30" reward="1"/>
+    <child level="2" title="Invite Friend II" detail1="Send Request To 60 Friends" detail2="Gửi lời mời đến 60 bạn bè" target="60" reward="3"/>
+    <child level="3" title="Invite Friend III" detail1="Send Request To 120 Friends" detail2="Gửi lời mời đến 120 bạn bè" target="120" reward="5"/>
+  </group>
+</Achievement>

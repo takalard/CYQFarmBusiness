@@ -1,0 +1,40 @@
+﻿<Missions level="3">
+
+  <Target startMoney="800" maxCustomer="48" timeMission="9"/>
+  <Tip text=" Thuê nhân viên khi đã có cả 3 loại sản phẩm: bánh mì, sữa tươi, pho mai." text1="If you have bread, milk bottle and cheese, you should hire staffs."/>
+  <Star twoStar="1500" threeStar="2200" reward="1-2-3"/>
+
+  <Farm >
+    <Field id="1" startNumber="11"/>
+    <Field id="2" startNumber="5" />
+    <Seed id="1" startNumber="11" targetPlant="11"/>
+    <Seed id="7" targetPlant="5"/>
+  </Farm>
+
+  <Factory countPosition="4" >
+    <Machine id="1" startNumber="2"/>
+    <Machine id="4" startNumber="2"/>
+  </Factory>
+
+  <Shop targetSells="30">
+    <Product id="7" numberRequest="12"/>
+    <Product id="19" startNumber="15" numberRequest="18"/>
+    <Product id="22" startNumber="15" numberRequest="18"/>
+  </Shop>
+
+  <City>
+    <Building id="0" name="staffhouse">
+      <Staff id="1"/>
+      <Staff id="2"/>
+    </Building>
+  </City>
+
+  <NewItem>
+     <item type="field" id="2"/>
+    <item type="breed" id="7"/>
+    <item type="machine" id="4"/>
+    <item type="product" id="19"/>
+    <item type="product" id="22"/>
+  </NewItem>
+  
+</Missions>

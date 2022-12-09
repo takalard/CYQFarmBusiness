@@ -1,0 +1,51 @@
+<Missions level="7">
+
+  <Target startMoney="900" timeMission="10" maxCustomer="56"/>
+  <Tip text="Vào ngày chủ nhật, tòa nhà xổ số sẽ mở miễn phí." text1="On sunday, you will spin lucky wheel once for free in Lottery Building."/>
+  <Star twoStar="2800" threeStar="3500" reward="1-1-2"/>
+
+  <Farm>
+    <Field id="1" startNumber="11" />
+    <Field id="2" startNumber="6" />
+    <Field id="3" startNumber="3" />
+    <Seed id="1" startNumber="11"/>
+	<Seed id="4"/>
+    <Seed id="7"/> 
+	<Seed id="8" startNumber="3"/>
+  </Farm>
+
+  <Factory countPosition="4">
+    <Machine id="1" startNumber="2"/>
+	<Machine id="2" startNumber="2"/>
+    <Machine id="3" />
+    <Machine id="4"/>	
+  </Factory>
+
+  <Shop>
+    <Product id="7" startNumber="8" targetSell="20" numberRequest="30"/>
+	<Product id="12" startNumber="11" targetSell="20" numberRequest="26"/>
+	<Product id="17"/>
+    <Product id="19"/>
+    <Product id="22"/>
+  </Shop>
+
+<City>
+    <Building id="0" fail="true" name="staffhouse">
+      <Staff id="1"/>
+      <Staff id="2"/>
+      <Staff id="3"/>
+	</Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+</City>
+
+ <NewItem>
+    <item type="field" id="3"/>
+    <item type="breed" id="8"/>
+    <item type="machine" id="2"/>
+    <item type="product" id="12"/>
+    <item type="building" id="4"/>
+</NewItem>
+
+  </Missions>

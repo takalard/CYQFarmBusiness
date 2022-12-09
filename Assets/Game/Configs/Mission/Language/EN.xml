@@ -1,0 +1,147 @@
+<EN>
+  <SETTING>SETTING</SETTING>
+  <Music>Music</Music>
+  <Sound>Sound</Sound>
+  <Info>Info</Info>
+  <Help>Help</Help>
+  <MISSION>MISSION</MISSION>
+  <Control_guide>Control Guide</Control_guide>
+  <Time_limit>Time Limit</Time_limit>
+  <Money>Money</Money>
+  <Days>Days</Days>
+  <Require>Require</Require>
+  <Sell>Sell</Sell>
+  <Earned>Earn</Earned>
+  <breads>bread(s)</breads>
+  <cookie>cookies</cookie>
+  <grapes_pie>grapes pies</grapes_pie>
+  <strawberry_pie>strawberry pies</strawberry_pie>
+  <shirmp_cake>shirmp cakes</shirmp_cake>
+  <fish_roast>grilled fishes</fish_roast>
+  <chicken_roast>grilled chickens</chicken_roast>
+  <Humburger>Hamburger</Humburger>
+  <tomato>tomatoes</tomato>
+  <grapes>bunch of grapes</grapes>
+  <strawberry>strawberries</strawberry>
+  <tomato_field>tomato field(s)</tomato_field>
+  <grapes_field>bunch of grapes field(s)</grapes_field>
+  <strawberry_field>strawberry field(s)</strawberry_field>
+  <strawberry_milk>strawberry milk bottles</strawberry_milk>
+  <fresh_milk>fresh milk bottles</fresh_milk>
+  <butter>butters</butter>
+  <grapes_milk>grapes milk bottles</grapes_milk>
+  <cheess>cheeses</cheess>
+  <Upgrade_bakery>Upgrade bakery machineto level</Upgrade_bakery>
+  <Upgrade_BBQ>Upgrade BBQ grill machine to level</Upgrade_BBQ>
+  <Upgrade_Fruit>Upgrade fruit machine to level</Upgrade_Fruit>
+  <Upgrade_Dairy>Upgrade milk machine to level</Upgrade_Dairy>
+  <Open>Open</Open>
+  <fields>field(s)</fields>
+  <barns>barn(s)</barns>
+  <ponds>pond(s)</ponds>
+  <Upgrade_fields>Upgrade field to level</Upgrade_fields>
+  <Upgrade_barns>Upgrade barn to level</Upgrade_barns>
+  <Upgrade_ponds>Upgrade pond to level</Upgrade_ponds>
+  <Description>Select The Items You Want To Use</Description>
+  <Description_item_powerup_1>Add 50% to your fund when mission start</Description_item_powerup_1>
+  <Description_item_powerup_2>Add 50% to your time limit when mission start</Description_item_powerup_2>
+  <Description_item_powerup_3>Duplicate money on customer's bill</Description_item_powerup_3>
+  <Description_item_powerup_4>Discount 25% the price of seed,cattle and machine</Description_item_powerup_4>
+  <Description_item_powerup_5>Increase 50% the number of customer</Description_item_powerup_5>
+  <Description_item_powerup_6>Start game with 40% fill rate metter</Description_item_powerup_6>
+  <Login>Login</Login>
+  <Logout>Logout</Logout>
+  <CONNECT>CONNECT</CONNECT>
+  <Login_content>By connecting to facebook, you will play game with your friends on other devices, platforms</Login_content>
+  <Request>Request</Request>
+  <Receive>Receive</Receive>
+  <Your_Message>Your Message</Your_Message>
+  <Accept_all>Accept All</Accept_all>
+  <Invite_friend_detail>Bring Your Friend To The Game</Invite_friend_detail>
+  <Invite_friend>Invite Friends</Invite_friend>
+  <Select_all>Select All</Select_all>
+  <Send>Send</Send>
+  <Friend_list>Friend List</Friend_list>
+  <Help_friend_detail>Help Your Friends By Sending A Heart!</Help_friend_detail>
+  <Ask_friend>Ask For Help</Ask_friend>
+  <Ask_friend_detail>Ask For Your Friends!</Ask_friend_detail>
+  <Buy>Buy</Buy>
+  <Bakery_machine>bakery machine(s)</Bakery_machine>
+  <BBQ_machine>BBQ grill machine(s)</BBQ_machine>
+  <Fruit_machine>fruit machine(s)</Fruit_machine>
+  <Dairy_machine>milk machine(s)</Dairy_machine>
+  <Harvest>Harvest from</Harvest>
+  <wheat>wheat field(s)</wheat>
+  <chicken_thighs>henhouse(s)</chicken_thighs>
+  <pock>pigsty(s)</pock>
+  <milk_crates>byre(s)</milk_crates>
+  <fish>fish pond(s)</fish>
+  <shrimph>shrimp farm(s)</shrimph>
+  <Rank>Rank</Rank>
+  <LOGIN>LOGIN</LOGIN>
+  <LOGOUT>LOGOUT</LOGOUT>
+  <NO_THANK>NO THANKS</NO_THANK>
+  <Your_Score>Your Score</Your_Score>
+  <Reward>Reward</Reward>
+  <Fund>Fund</Fund>
+  <START>START</START>
+  <Customers_rate_is>Customer's rate is</Customers_rate_is>
+  <star>stars</star>
+  <Produce>Produce</Produce>
+  <products>products</products>
+  <Unlock>Unlock</Unlock>
+  <position_put_machine>position to put machine</position_put_machine>
+  <Training>Training</Training>
+  <staffs_to_level>staffs to level</staffs_to_level>
+  <products_with_weather_gift>products with weather gifts</products_with_weather_gift>
+  <Spin_lucky_wheel_in>Spin lucky wheel</Spin_lucky_wheel_in>
+  <times>times</times>
+  <Try_Again>Try Again</Try_Again>
+  <try_again_detail>If you try again, you will lose a heart!</try_again_detail>
+  <refill_heart>Use diamond to buy heart?</refill_heart>
+  <Ask_friends>Ask friends</Ask_friends>
+  <Refill>Refill</Refill>
+  <No_message>No message</No_message>
+  <No_request>No request</No_request>
+  <Check_Network>Please check your network connection to login</Check_Network>
+  <Ok>Ok</Ok>
+  <Cancel>Cancel</Cancel>
+  <INFO>INFO</INFO>
+  <POWER_UP>POWER UP</POWER_UP>
+  <HELP>HELP</HELP>
+  <ACHIEVEMENTS>ACHIEVEMENTS</ACHIEVEMENTS>
+  <COMPLETE>COMPLETE</COMPLETE>
+  <Quest_finish_detail>All targets are complete. Do you want to end mission right now?</Quest_finish_detail>
+  <day_reamain_equal>day(s) remaining</day_reamain_equal>
+  <DAILY_GIFT>DAILY GIFT</DAILY_GIFT>
+  <Day>Day</Day>
+  <Get>Get</Get>
+  <Bonus_customer_rate>Bonus customer's rate</Bonus_customer_rate>
+  <All_target>All target</All_target>
+  <ON>ON</ON>
+  <OFF>OFF</OFF>
+  <Logout_confirm>Are you want to logout ? All data will be lost!</Logout_confirm>
+  <Incomplete>Incomplete</Incomplete>
+  <TOUCH_START>TOUCH TO START</TOUCH_START>
+  <RATE_IT>RATE IT!</RATE_IT>
+  <RATE>RATE</RATE>
+  <Rate_Content>
+    If you enjoy using Farm Business, would you mind taking a moment to rate it?
+    It won't take a more than a minute.
+    Thanks for your support!
+  </Rate_Content>
+  <Heart_full>Your heart is full!</Heart_full>
+  <Quit>Quit</Quit>
+  <Quit_detail>Do you want to exit?</Quit_detail>
+  <ITEM>ITEM</ITEM>
+  <RESOURCE>RESOURCE</RESOURCE>
+  <REFILL>REFILL</REFILL>
+  <package1>Pile of diamonds</package1>
+  <package2>Bag of diamonds</package2>
+  <package3>Stack of diamonds</package3>
+  <package4>Box of diamonds</package4>
+  <package5>Chest of diamonds</package5>
+  <package6>Trunk of diamonds</package6>
+  <Network_error>Network error! Please check your network and try again!</Network_error>
+  <Try_again_reload>Network error! Are you want to try load again?</Try_again_reload>
+</EN>

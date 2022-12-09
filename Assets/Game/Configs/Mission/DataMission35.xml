@@ -1,0 +1,79 @@
+<Missions level="35">
+
+  <Target startMoney="1940" timeMission="18" targetMoney="2300" maxCustomer="80"/>   
+  <Star twoStar="2800" threeStar="3500" reward="1-1-2"/>
+
+  <Farm>
+    <Field id="1" startNumber="9" maxLevel="2"/>
+    <Field id="2" startNumber="5" maxLevel="2"/>
+    <Field id="3" startNumber="3" maxLevel="2"/>
+    <Seed id="1"/>
+	<Seed id="3"/>
+	<Seed id="4"/>
+	<Seed id="5"/>
+    <Seed id="7"/> 
+	<Seed id="8"/>
+  </Farm>
+
+  <Factory countPosition="4">
+    <Machine id="1" maxLevel="2" />
+	<Machine id="2" maxLevel="2"/>
+    <Machine id="3" maxLevel="2" />
+    <Machine id="4" />	
+  </Factory>
+
+  <Shop targetSells="30">
+    <Product id="7"/>
+	<Product id="10" numberRequest="40"/>
+	<Product id="12" numberRequest="20"/>
+	<Product id="13" />
+	<Product id="16"/>
+	<Product id="17"/>
+    <Product id="19" />
+    <Product id="22" numberRequest="20"/>
+	 <Weather startNumber="true"/>
+  </Shop>
+
+<City>
+    <Building id="0" name="staffhouse" fail="true">
+      <Staff id="1" maxLevel="2"/>
+      <Staff id="2" maxLevel="2"/>
+      <Staff id="3" maxLevel="2"/>
+	  <Staff id="4" maxLevel="2"/>
+	</Building>
+	
+	 <Building id="1" name="supermarket">
+      <Product id="7"/>
+	  <Product id="10"/>
+	  <Product id="12"/>
+	  <Product id="13"/>
+	  <Product id="16"/>
+	  <Product id="17"/>	  
+	  <Product id="19"/>
+	  <Product id="22"/>
+    </Building>
+	
+	 <Building id="2" name="media">
+      <Forms id="0"/>
+	 </Building>
+	  
+	 <Building id="3" name="research">
+      <Forms id="0"/>
+      <Forms id="1"/>
+    </Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+	
+	<Building id="5" name="technology">
+    </Building>
+	
+</City>
+ 
+ <NewItem>   
+	 <item type="staff" id="4" level="2"/>
+    <item type="building" id="3"/>
+    <item type="method" id="31"/>
+  </NewItem>
+ 
+  </Missions>

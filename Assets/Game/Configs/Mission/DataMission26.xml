@@ -1,0 +1,75 @@
+<Missions level="26">
+
+  <Target startMoney="1250" targetCustomerRate="440" timeMission="16" maxCustomer="75"/> 
+  <Tip text="Bạn hãy đào tạo nhân viên để họ làm việc tốt hơn nhé!" text1="Train staffs to help them become better."/>  
+  <Star twoStar="6750" threeStar="8410" reward="1-2-3"/>
+
+  <Farm>
+    <Field id="1" startNumber="11" startLevel="2" maxLevel="2"/>
+    <Field id="2" startNumber="3"  startLevel="2" maxLevel="2"/>
+    <Field id="3" startNumber="3" maxLevel="2"/>
+    <Seed id="1" startNumber="4"/>
+	<Seed id="3" startNumber="3"/>
+	<Seed id="4" startNumber="4"/>
+    <Seed id="7" startNumber="3"/> 
+	<Seed id="8" startNumber="3"/>
+  </Farm>
+
+  <Factory countPosition="5">
+    <Machine id="1" startNumber="1" startLevel="2" maxLevel="2" />
+	<Machine id="2" startNumber="1"/>
+    <Machine id="3" startNumber="2" startLevel="2" maxLevel="2" />
+    <Machine id="4" startNumber="1"/>	
+  </Factory>
+
+  <Shop targetSells="85">
+    <Product id="7"/>
+	<Product id="10" startNumber="5"  numberRequest="17"/>
+	<Product id="12" startNumber="5"  numberRequest="17"/>
+	<Product id="16" startNumber="5"  numberRequest="17"/>
+	<Product id="17"  startNumber="5"  numberRequest="17"/>
+    <Product id="19" startNumber="5"  numberRequest="17"/>
+    <Product id="22"/>
+	 <Weather startNumber="true"/>
+  </Shop>
+
+<City>
+    <Building id="0" name="staffhouse"  fail="true"  number="3" level="2">
+      <Staff id="1" startNumber="true" maxLevel="2"/>
+      <Staff id="2" startNumber="true" maxLevel="2"/>
+      <Staff id="3" startNumber="true" maxLevel="2"/>	
+	</Building>
+	
+	 <Building id="1" name="supermarket">
+      <Product id="7"/>
+	  <Product id="10"/>
+	  <Product id="12"/>
+	  <Product id="16"/>
+	  <Product id="17"/>	  
+	  <Product id="19"/>
+	  <Product id="22"/>
+    </Building>
+	
+	 <Building id="2" name="media">
+      <Forms id="0" />
+	 </Building>	 
+	  
+	 <Building id="3" name="research">
+      <Forms id="0"/>
+    </Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+	
+	<Building id="5" name="technology">
+    </Building>
+	
+</City>
+ 
+  <NewItem>  
+    <item type="staff" id="1" level="2"/>  
+	<item type="staff" id="2" level="2"/> 
+	<item type="staff" id="3" level="2"/> 	
+  </NewItem>
+ 
+  </Missions>

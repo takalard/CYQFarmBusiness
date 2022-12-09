@@ -1,0 +1,60 @@
+﻿<Data>
+  <guide id="1" textV="Chào mừng nhà quản lý mới của Farm Business. Tôi là Kiều Trang. Tôi sẽ giúp bạn trở thành NHÀ QUẢN LÝ SIÊU TÀI BA!"
+          textE="Hi, nice to meet you. Welcome to the Farm Business. I'm Jeny and I'll help you get started."/>
+  <guide id="2" textV="Đây là nông trại, nơi mà bạn sẽ chăn nuôi, trồng trọt để tạo ra những nguyên liệu phục vụ sản xuất."
+         textE="On the Farm, You will have the lands and barns to make the raw materials for the production."/>
+  <guide id="3" textV="Đây là ô đầm lầy nên bạn không thể trồng trọt. Nhưng chúng ta có thể cải tạo nó sau."
+         textE="This is swamp so you can't grow. But we can improve it later.">
+    <circle posi="-118;-67" size="45"/>
+  </guide>
+  <guide id="4" textV="Còn đây là ô đất rất màu mỡ. Bạn có thể dùng để trồng tất cả những gì bạn muốn."
+         textE="This is fruitfulness. You can use this to plant crops.">
+    <circle posi="-11;-2" size="45"/>
+  </guide>
+  <guide id="5" textV="Bây giờ, chúng ta hãy bắt đầu với công việc trồng lúa mì nhé! Bạn hãy chạm vào ô đất."
+         textE="Now, Let's start with planting wheat! Tap into the fruitfulness!"/>
+  <guide id="6" textV="xxx" textE="xxx">
+    <hand posi="-11;-2" size="45"/>
+  </guide>
+  <guide id="7" textV="Đây là lúa mì có giá 20$ trồng trên một ruộng. Chạm vào giống lúa mì để mua chúng."
+         textE="This is wheat and it's price is 20$. Tap into the wheat icon to buy!"/>
+  <guide id="8" textV="xxx" textE="xxx" >
+    <hand posi="-105;75" size="30"/>
+  </guide>
+  <guide id="9" textV="Bạn làm rất tốt! Mỗi loại cây có 3 giai đoạn phát triển. Bạn hãy chạm vào ruộng để xem thông tin về thời gian phát triển."
+          textE=" Great! Each seed have 3 stages of development. Tap into the field to see the information about remaining time."/>
+  <guide id="10" textV="xxx" textE="xxx">
+    <hand posi="-11;-2" size="45"/>
+  </guide>
+  <guide id="11" textV="Cây lúa mì cần 4 ngày 6 giờ để chín. Bạn có thể sử dụng kim cương để lúa chín ngay lập tức. Chạm vào để sử dụng kim cương."
+         textE="Wheat need 4 days 6 hours to grow up. You can use diamonds to be harvested immediately. Tap into the diamond button."/>
+  <guide id="12" textV="xxx" textE="xxx">
+    <hand posi="-87;-63" size="30"/>
+  </guide>
+  <guide id="13" textV="Bạn nhìn kìa! Lúa mì đã chín. Bạn hãy chạm vào ruộng lúa mì để thu hoạch."
+         textE="Look! Your wheat fields were harvested.  Tap now."/>
+  <guide id="14" textV="xxx" textE="xxx" >
+    <hand posi="-11;-2" size="45"/>
+  </guide>
+  <guide id="15" textV="Sau khi thu hoạch, các nguyên liệu sẽ được chuyển tới nhà máy. Bây giờ, chúng ta sẽ đi tới nhà máy nhé!"
+         textE="After the harvesting finished, the materials will be transfered directly to the Factory. Now, let's go to the Factory!"/>
+  <guide id="16" textV="xxx" textE="xxx">
+    <hand posi="580;-13" size="40"/>
+  </guide>
+  <guide id="17" textV="Tiếp theo, tôi sẽ đưa bạn tới nhà kho, nơi chứa các nguyên liệu và sản phẩm mà bạn đang có. Chạm vào để xem."
+         textE="You can use storehouse button to view your materials or your products that you have. Tap to see more details."/>
+  <guide id="18" textV="xxx" textE="xxx">
+    <hand posi="-580;-300" size="-40"/>
+  </guide>
+  <guide id="19" textV="xxx" textE="xxx">
+    <hand posi="-80;235" size="-30"/>
+  </guide>
+  <guide id="20" textV="Tiếp theo là nơi bạn có thể theo dõi kết quả đạt được, là nơi cho bạn những gợi ý tốt nhất. Chạm vào để xem."
+         textE=" You can follow your mission's process in the task button. Tap to see more details."/>
+  <guide id="21" textV="xxx" textE="xxx">
+    <hand posi="-586;-183" size="-40"/>
+  </guide>
+  <guide id="22" textV="xxx" textE="xxx">
+    <hand posi="25;200" size="-30"/>
+  </guide>
+</Data>

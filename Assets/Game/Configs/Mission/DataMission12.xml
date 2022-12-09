@@ -1,0 +1,48 @@
+<Missions level="12">
+
+  <Target startMoney="2200" timeMission="19" maxCustomer="56"/>
+  <Tip text="Bạn nên sử dụng tòa nhà Market Research." text1="You should use Market Research Building."/>
+  <Star twoStar="3220" threeStar="4000" reward="1-2-3"/>
+
+  <Farm>
+    <Field id="1" startNumber="10" />
+    <Field id="2" startNumber="5" />
+    <Field id="3" startNumber="3" />
+    <Seed id="1"/>
+	<Seed id="4"/>
+    <Seed id="7"/> 
+	<Seed id="8"/>
+  </Farm>
+
+  <Factory countPosition="4" >
+    <Machine id="1"/>
+	<Machine id="2"/>
+    <Machine id="3"/>
+    <Machine id="4"/>	
+  </Factory>
+
+  <Shop targetSells="25">
+    <Product id="7" numberRequest="30"/>
+	<Product id="12" numberRequest="13"/>
+	<Product id="17"/>
+    <Product id="19"/>
+    <Product id="22" numberRequest="13"/>
+	<Weather startNumber="true"/>
+  </Shop>
+
+<City>
+    <Building id="0" name="staffhouse" fail="true">
+      <Staff id="1"/>
+      <Staff id="2"/>
+      <Staff id="3"/>	
+	</Building>
+	
+	 <Building id="3" name="research">
+      <Forms id="0"/>
+    </Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+</City>
+
+  </Missions>

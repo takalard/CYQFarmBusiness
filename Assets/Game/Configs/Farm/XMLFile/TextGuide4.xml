@@ -1,0 +1,15 @@
+﻿<Data>
+  <guide id="9" textV="Khi bạn phát hiện mình đã nuôi trồng không đúng, bạn có thể hủy bỏ ruộng hoặc chuồng đó. Sau khi hủy bỏ, bạn sẽ nhận lại 30% giá trị của giống mà bạn đã mua. Hãy chạm vào ruộng và chọn hủy."
+         textE="If you choose wrong seed, you can sell field and get back 30% of seed's price which you planted on the field. Tap into field and select destroy icon."/>
+  <guide id="10" textV="xxx" textE="xxx">
+    <hand posi="-15;-15" size="40"/>
+  </guide>
+  <guide id="11" textV="xxx" textE="xxx">
+    <hand posi="-100;60" size="30"/>
+  </guide>
+  <guide id="12" textV="Rất tốt. Bây giờ, bạn hãy cùng tôi tới nhà máy để bán máy nhé! Chạm vào để tới nhà máy."
+         textE="Now we will go to the Factory to learn sell machine. Tap into factory button."/>
+  <guide id="13" textV="xxx" textE="xxx">
+    <hand posi="580;-15" size="40"/>
+  </guide>
+</Data>

@@ -1,0 +1,74 @@
+<Missions level="36">
+
+  <Target startMoney="540" timeMission="19" targetCustomerRate="300" maxCustomer="62"/>
+  <Tip text="Kết hợp sử dụng các tòa nhà để đạt hiệu quả cao nhất." text1="Combine the buildings to get better result."/>     
+  <Star twoStar="4500" threeStar="6200" reward="1-2-3"/>
+
+  <Farm>
+    <Field id="1" startNumber="11" maxLevel="2" startLevel="2"/>
+    <Field id="2" startNumber="5" maxLevel="2" startLevel="2"/>
+    <Field id="3" startNumber="4" maxLevel="2" startLevel="2"/>
+    <Seed id="1" startNumber="6"/>
+	<Seed id="3" startNumber="2"/>
+	<Seed id="4" startNumber="3"/>
+	<Seed id="5" startNumber="5"/>
+    <Seed id="7"/> 
+	<Seed id="8"/>
+  </Farm>
+
+  <Factory countPosition="4">
+    <Machine id="1" startNumber="2" maxLevel="2"/>
+	<Machine id="2" maxLevel="2" startNumber="2"/>
+    <Machine id="3" maxLevel="2" startNumber="1"/>
+    <Machine id="4" />	
+  </Factory>
+
+  <Shop>
+    <Product id="7"/>
+	<Product id="10" numberRequest="25"/>
+	<Product id="12"/>
+	<Product id="13" numberRequest="25"/>
+	<Product id="16" numberRequest="12"/>
+	<Product id="17" />
+    <Product id="19" />
+    <Product id="22"/>
+	 <Weather startNumber="true" targetItem="19"/>
+  </Shop>
+
+<City>
+    <Building id="0" name="staffhouse" fail="true">
+      <Staff id="1" maxLevel="2"/>
+      <Staff id="2" maxLevel="2"/>
+      <Staff id="3" maxLevel="2"/>
+	  <Staff id="4" maxLevel="2"/>
+	</Building>
+	
+	 <Building id="1" name="supermarket">
+      <Product id="7"/>
+	  <Product id="10"/>
+	  <Product id="12"/>
+	  <Product id="13"/>
+	  <Product id="16"/>
+	  <Product id="17"/>	  
+	  <Product id="19"/>
+	  <Product id="22"/>
+    </Building>
+	
+	 <Building id="2" name="media">
+      <Forms id="0"/>
+	 </Building>
+	  
+	 <Building id="3" name="research">
+      <Forms id="0"/>
+      <Forms id="1"/>
+    </Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+	
+	<Building id="5" name="technology">
+    </Building>
+	
+</City>
+ 
+  </Missions>

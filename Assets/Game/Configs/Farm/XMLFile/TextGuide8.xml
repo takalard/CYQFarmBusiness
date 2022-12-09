@@ -1,0 +1,15 @@
+﻿<Data>
+  <guide id="1" textV="Trong nông trại có những ô đầm lầy không nuôi trồng được. Nhưng bạn yên tâm, bạn có thể cải tạo những ô đất đó. Hãy chạm vào ô đất."
+         textE="You can use diamond to improve your fields or barns which is unimproved."/>
+  <guide id="2" textV="xxx" textE="xxx">
+    <hand posi="0;-250" size="35"/>
+  </guide>
+  <guide id="3" textV="xxx" textE="xxx">
+    <hand posi="-140;-190" size="35"/>
+  </guide>
+  <guide id="4" textV="Thật đơn giản phải không! Bây giờ bạn đã có nhiều đất hơn để trồng rồi! Bây giờ chúng ta cùng tới nhà máy nhé."
+         textE="Easy? Now, you have a lot of fields and barns. Let's go to the Factory to continue."/>
+  <guide id="5" textV="xxx" textE="xxx">
+    <hand posi="580;-15" size="40"/>
+  </guide>
+</Data>

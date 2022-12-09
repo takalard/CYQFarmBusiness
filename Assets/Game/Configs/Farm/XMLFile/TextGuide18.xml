@@ -1,0 +1,7 @@
+﻿<Data>
+  <guide id="1" textV="Có vẻ như khách hàng của bạn hơi ít nhỉ! Hôm nay, tôi sẽ cho bạn biết một phương pháp kinh doanh mới để thu hút khách hàng nhé! Hãy cùng tôi tới thành phố nào!"
+         textE="You worry about your shop because it have fewer customers? Today, I will show you a new method to attract customers. Come with me!"/>
+  <guide id="2" textV="xxx" textE="xxx">
+    <hand posi="580;-290" size="40"/>
+  </guide>
+</Data>

@@ -1,0 +1,42 @@
+<FrameItem>
+  <Counter name="4">
+    <Item x="105" y="90" scale="1"/>
+    <Item x="-30" y="0" scale="1"/>
+    <Item x="-100" y="-110" scale="1"/>
+    <Item x="107" y="-78" scale="1"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="446" y="380" scale="330"/>
+  </Counter>
+  <Counter name="3">
+    <Item x="100" y="75" scale="1"/>
+    <Item x="-80" y="-90" scale="1"/>
+    <Item x="80" y="-60" scale="1"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="406" y="346" scale="300"/>
+  </Counter>
+  <Counter name="2">
+    <Item x="76" y="49" scale="1"/>
+    <Item x="-41" y="-70" scale="1"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="325" y="277" scale="250"/>
+  </Counter>
+  <Counter name="1">
+    <Item x="34" y="-17" scale="1"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="204" y="173" scale="150"/>
+  </Counter>
+  <Counter name="0">
+    <Item x="0" y="0" scale="0"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="0" y="0" scale="0"/>
+    <Item x="0" y="0" scale="0"/>
+  </Counter>
+</FrameItem>

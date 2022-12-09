@@ -43,14 +43,14 @@ MonoBehaviour:
         PackRuleName: PackDirectory
         FilterRuleName: CollectAll
         AssetTags: 
-      - CollectPath: Assets/Game/UI/Images
+      - CollectPath: Assets/Game/Images
         CollectorGUID: f1c88ee49fde8e849afcbf9a78e7fc5e
         CollectorType: 0
         AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory
         FilterRuleName: CollectAll
         AssetTags: 
-      - CollectPath: Assets/Game/UI/Prefabs
+      - CollectPath: Assets/Game/Prefabs
         CollectorGUID: 8b33c0d581346be458882454ab2f301a
         CollectorType: 0
         AddressRuleName: AddressByFileName

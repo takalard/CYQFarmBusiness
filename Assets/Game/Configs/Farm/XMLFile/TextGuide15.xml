@@ -1,0 +1,7 @@
+﻿<Data>
+  <guide id="1" textV="Cả nông trại và nhà máy của bạn đã tới lúc được thay đổi rồi. Hãy cùng tôi tới thành phố để xem điều bất ngờ gì nhé!"
+         textE="Your Farm and Factory need to change. Come with me to see special thing in the City!"/>
+  <guide id="2" textV="xxx" textE="xxx">
+    <hand posi="580;-290" size="40"/>
+  </guide>
+</Data>

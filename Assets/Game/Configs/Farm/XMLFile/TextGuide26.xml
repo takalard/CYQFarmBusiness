@@ -1,0 +1,7 @@
+﻿<Data>
+  <guide id="1" textV="Nhân viên của bạn luôn gặp các vấn đề về tinh thần và thể lực. Đã đến lúc đào tạo nhân viên của bạn rồi! Hãy cùng tôi tới thành phố nào!"
+         textE="Your staffs always have trouble about mental and physical? You need to train them. Come with me!"/>
+  <guide id="2" textV="xxx" textE="xxx">
+    <hand posi="580;-290" size="40"/>
+  </guide>
+</Data>

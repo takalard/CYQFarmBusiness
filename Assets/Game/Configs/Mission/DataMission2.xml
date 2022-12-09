@@ -1,0 +1,32 @@
+﻿<Missions level="2">
+
+  <Target startMoney="300" maxCustomer="30" timeMission="5" targetCustomerRate="70" startScreen="3"/>
+  <Tip text="Thuê nhiều nhân viên để bán được nhiều sản phầm hơn." text1="If you want to sell more products, you need to hire more staffs."/>
+  <Star twoStar="700" threeStar="1000" reward="1-2-3"/>
+
+  <Farm>
+    <Field id="1" startNumber="11"/>
+    <Seed id="1" startNumber="11"/>
+  </Farm>
+
+  <Factory countPosition="4">
+    <Machine id="1" startNumber="3"/>
+  </Factory>
+
+  <Shop>
+    <Product id="7" startNumber="16" targetSell="17" numberRequest="30"/>
+  </Shop>
+
+  <City>
+    <Building id="0" name="staffhouse">
+      <Staff id="1"/>
+      <Staff id="2"/>
+    </Building>
+  </City>
+
+  <NewItem>
+    <item type="staff" id="1" />
+    <item type="staff" id="2" />
+    <item type="building" id="0"/>
+  </NewItem>
+</Missions>

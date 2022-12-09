@@ -1,0 +1,20 @@
+﻿<Data>
+  <guide id="1" textV="Bạn nhìn kìa! Nông trại đã có thêm chuồng. Bạn có thể nuôi bất cứ con gì bạn muốn, nhưng đầu tiên hãy nuôi bò nhé! Chạm vào chuồng để chọn giống."
+         textE="Look! Your farm have barns. You can feed any cattle but firstly we will feed the cow. Tap into the barn and choose cow."/>
+  <guide id="2" textV="xxx" textE="xxx">
+    <hand posi="240;40" size="40"/>
+  </guide>
+  <guide id="3" textV="xxx" textE="xxx">
+    <hand posi="165;110" size="30"/>
+  </guide>
+  <guide id="4" textV="Bạn làm rất tốt! Bạn cần nhớ rằng một chuồng chỉ có thể nuôi một loại nhất định nhé."
+         textE="Good job! Remember, one barn can feed just one kind of cattle."/>
+  <guide id="5" textV="Bạn có thể sử dụng kim cương để thu hoạch bò ngay lập tức. Chạm vào chuồng và chọn kim cương."
+         textE="If you use diamond, you can complete the livestock immediately. Tap into the barn."/>
+  <guide id="6" textV="xxx" textE="xxx">
+    <hand posi="240;40" size="40"/>
+  </guide>
+  <guide id="7" textV="xxx" textE="xxx">
+    <hand posi="185;-10" size="30"/>
+  </guide>
+</Data>

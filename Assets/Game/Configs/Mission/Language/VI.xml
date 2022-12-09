@@ -1,0 +1,146 @@
+<VI>
+  <SETTING>CÀI ĐẶT</SETTING>
+  <Music>Nhạc nền</Music>
+  <Sound>Âm thanh</Sound>
+  <Info>Thông tin</Info>
+  <Help>Trợ giúp</Help>
+  <MISSION>MÀN</MISSION>
+  <Control_guide>Hướng dẫn</Control_guide>
+  <Time_limit>Thời hạn</Time_limit>
+  <Money>Tiền</Money>
+  <Days>Ngày</Days>
+  <Require>Yêu cầu</Require>
+  <Sell>Bán</Sell>
+  <Earned>Kiếm được</Earned>
+  <breads>bánh mỳ</breads>
+  <cookie>bánh ngọt</cookie>
+  <grapes_pie>bánh nho</grapes_pie>
+  <strawberry_pie>bánh dâu</strawberry_pie>
+  <shirmp_cake>bánh tôm</shirmp_cake>
+  <fish_roast>con cá nướng</fish_roast>
+  <chicken_roast>gà quay</chicken_roast>
+  <Humburger>humburger</Humburger>
+  <tomato>quả cà chua</tomato>
+  <grapes>chùm nho</grapes>
+  <strawberry>quả dâu</strawberry>
+  <tomato_field>ruộng cà chua</tomato_field>
+  <grapes_field>ruộng nho</grapes_field>
+  <strawberry_field>ruộng dâu tây</strawberry_field>
+  <strawberry_milk>chai sữa dâu</strawberry_milk>
+  <fresh_milk>chai sữa tươi</fresh_milk>
+  <butter>miếng bơ</butter>
+  <grapes_milk>chai sữa nho</grapes_milk>
+  <cheess>pho mai</cheess>
+  <Upgrade_bakery>Nâng cấp máy làm bánh lên cấp</Upgrade_bakery>
+  <Upgrade_BBQ>Nâng cấp máy làm thịt lên cấp</Upgrade_BBQ>
+  <Upgrade_Fruit>Nâng cấp máy rửa hoa quả lên cấp</Upgrade_Fruit>
+  <Upgrade_Dairy>Nâng cấp máy làm sữa lên cấp</Upgrade_Dairy>
+  <Open>Mở</Open>
+  <fields>ruộng</fields>
+  <barns>chuồng</barns>
+  <ponds>ao</ponds>
+  <Upgrade_fields>Nâng cấp ruộng lên cấp</Upgrade_fields>
+  <Upgrade_barns>Nâng cấp chuồng lên cấp</Upgrade_barns>
+  <Upgrade_ponds>Nâng cấp ao lên cấp</Upgrade_ponds>
+  <Description>Chọn vật phẩm để xem chi tiết</Description>
+  <Description_item_powerup_1>Cộng thêm 50% vốn khi bắt đầu nhiệm vụ</Description_item_powerup_1>
+  <Description_item_powerup_2>Cộng thêm 50% thời gian khi bắt đầu nhiệm vụ</Description_item_powerup_2>
+  <Description_item_powerup_3>Nhân đôi tiền mà khách hàng trả</Description_item_powerup_3>
+  <Description_item_powerup_4>Giảm giá 25% các giống, vật nuôi và máy móc</Description_item_powerup_4>
+  <Description_item_powerup_5>Tăng 50% số lượng khách hàng</Description_item_powerup_5>
+  <Description_item_powerup_6>Bắt đầu game với 40% thanh độ hài lòng của khách hàng</Description_item_powerup_6>
+  <Login>Đăng nhập</Login>
+  <Logout>Đăng xuất</Logout>
+  <CONNECT>KẾT NỐI</CONNECT>
+  <Login_content>Kết nối tới facebook, bạn sẽ chơi game với tất cả bạn bè của bạn, trên các thiết bị, các nền tảng khác nhau</Login_content>
+  <Request>Yêu cầu</Request>
+  <Receive>Tin nhắn</Receive>
+  <Your_Message>Tin Nhắn</Your_Message>
+  <Accept_all>Đồng ý</Accept_all>
+  <Invite_friend_detail>Mời Bạn Bè Chơi Game Cùng Bạn</Invite_friend_detail>
+  <Invite_friend>Mời Bạn Bè</Invite_friend>
+  <Select_all>Chọn tất cả</Select_all>
+  <Send>Gửi</Send>
+  <Friend_list>Danh sách bạn bè</Friend_list>
+  <Help_friend_detail>Tặng Bạn Bè Bạn 1 Trái Tim!</Help_friend_detail>
+  <Ask_friend>Nhờ Giúp Đỡ</Ask_friend>
+  <Ask_friend_detail>Nhờ Bạn Bè Giúp Đỡ!</Ask_friend_detail>
+  <Buy>Mua</Buy>
+  <Bakery_machine>máy làm bánh</Bakery_machine>
+  <BBQ_machine>máy làm thịt</BBQ_machine>
+  <Fruit_machine>máy rửa hoa quả</Fruit_machine>
+  <Dairy_machine>máy làm sữa</Dairy_machine>
+  <Harvest>Thu hoạch</Harvest>
+  <wheat>ruộng lúa mì</wheat>
+  <chicken_thighs>chuồng gà</chicken_thighs>
+  <pock>chuồng lợn</pock>
+  <milk_crates>chuồng bò</milk_crates>
+  <fish>ao cá</fish>
+  <shrimph>ao tôm</shrimph>
+  <Rank>Xếp Hạng</Rank>
+  <LOGOUT>ĐĂNG XUẤT</LOGOUT>
+  <LOGIN>ĐĂNG NHẬP</LOGIN>
+  <NO_THANK>ĐỂ SAU</NO_THANK>
+  <Your_Score>Điểm Cao</Your_Score>
+  <Reward>Phần thưởng</Reward>
+  <Fund>Tiền Vốn</Fund>
+  <START>CHƠI</START>
+  <Customers_rate_is>Đánh giá khách hàng đạt</Customers_rate_is>
+  <star>sao</star>
+  <Produce>Sản xuất</Produce>
+  <products>sản phẩm</products>
+  <Unlock>Mở rộng thêm</Unlock>
+  <position_put_machine>vị trí đặt máy</position_put_machine>
+  <Training>Đào tạo</Training>
+  <staffs_to_level>nhân viên lên level</staffs_to_level>
+  <products_with_weather_gift>sản phẩm kèm quà thời tiết</products_with_weather_gift>
+  <Spin_lucky_wheel_in>Quay xổ số</Spin_lucky_wheel_in>
+  <times>lần</times>
+  <Try_Again>Chơi lại</Try_Again>
+  <try_again_detail>Nếu chơi lại, Bạn sẽ mất 1 tim!</try_again_detail>
+  <refill_heart>Bạn có muốn sử dụng kim cương để mua tim?</refill_heart>
+  <Ask_friends>Nhờ bạn bè</Ask_friends>
+  <Refill>Thêm tim</Refill>
+  <No_message>Không có tin nhắn</No_message>
+  <No_request>Không có yêu cầu</No_request>
+  <Check_Network>Xin vui lòng kiểm tra lại kết nối trước khi đăng nhập</Check_Network>
+  <Ok>Đồng ý</Ok>
+  <Cancel>Hủy bỏ</Cancel>
+  <INFO>THÔNG TIN</INFO>
+  <POWER_UP>HỖ TRỢ</POWER_UP>
+  <HELP>TRỢ GIÚP</HELP>
+  <ACHIEVEMENTS>DANH HIỆU</ACHIEVEMENTS>
+  <COMPLETE>HOÀN THÀNH</COMPLETE>
+  <Quest_finish_detail>Nhiệm vụ đã hoàn thành , bạn có muốn kết thúc  không? </Quest_finish_detail>
+  <day_reamain_equal>ngày còn lại</day_reamain_equal>
+  <DAILY_GIFT>QUÀ TẶNG</DAILY_GIFT>
+  <Day>Ngày</Day>
+  <Get>Nhận</Get>
+  <Bonus_customer_rate>Độ hài lòng khách hàng</Bonus_customer_rate>
+  <All_target>Yêu cầu</All_target>
+  <ON>BẬT</ON>
+  <OFF>TẮT</OFF>
+  <Logout_confirm>Bạn có muốn đăng xuất? Tất cả dữ liệu sẽ bị mất!</Logout_confirm>
+  <Incomplete>Chưa xong</Incomplete>
+  <TOUCH_START>CHẠM ĐỂ BẮT ĐẦU</TOUCH_START>
+  <RATE_IT>ĐÁNH GIÁ!</RATE_IT>
+  <RATE>ĐÁNH GIÁ</RATE>
+  <Rate_Content>
+    Nếu bạn cảm thấy thích thú với Farm Business, hãy gửi nhũng cảm nhận và đánh giá của bạn cho chúng tôi!
+    Cảm ơn bạn!
+  </Rate_Content>
+  <Heart_full>Tim đã đầy!</Heart_full>
+  <Quit>Thoát</Quit>
+  <Quit_detail>Bạn có thực sự muốn thoát?</Quit_detail>
+  <ITEM>VẬT PHẨM</ITEM>
+  <RESOURCE>TÀI NGUYÊN</RESOURCE>
+  <REFILL>THÊM TIM</REFILL>
+  <package1>20 Kim cương</package1>
+  <package2>120 Kim cương</package2>
+  <package3>250 Kim cương</package3>
+  <package4>450 Kim cương</package4>
+  <package5>650 Kim cương</package5>
+  <package6>1100 Kim cương</package6>
+  <Network_error>Lỗi mạng! Vui lòng kiểm tra kết nối và thử lại sau!</Network_error>
+  <Try_again_reload>Lỗi kết nối! Bạn có muốn thử lại không?</Try_again_reload>
+</VI>

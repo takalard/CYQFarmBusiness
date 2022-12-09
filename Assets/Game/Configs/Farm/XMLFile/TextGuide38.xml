@@ -1,0 +1,9 @@
+﻿<Data>
+  <guide id="1" textV="Nếu một ngày, bệnh dịch xảy ra ở nông trại của bạn, khiến cho cây trồng cũng như vật nuôi không thể phát triển. Khi đó, bạn hãy chạm vào ruộng, chuồng hay ao đang có dịch bệnh để chữa trị nhé!"
+         textE="If one day, disease appears in your farm, it will make your crops, cattles can't grow up. Don't worry, you can tap on them to heal."/>
+  <guide id="2" textV="xxx" textE="xxx">
+    <hand posi="-19;-15" size="40"/>
+  </guide>
+  <guide id="3" textV="Thật đơn giản phải không nào!Hãy bắt đầu công việc ngày hôm nay nhé!"
+         textE="It's simple! Let's start your business, now!"/>
+</Data>

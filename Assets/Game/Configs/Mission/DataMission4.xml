@@ -1,0 +1,37 @@
+﻿<Missions level="4">
+
+  <Target startMoney="1200" targetMoney="6000" timeMission="10" maxCustomer="150" startScreen="3"/>
+  <Tip text="Khi gần hết thời gian bạn nên bán máy, ruộng, chuồng để thu hồi lại được 1 số tiền." text1="When time is running out, you should sell field/land/machine to collect money."/>
+  <Star twoStar="6500" threeStar="700" reward="1-1-2"/>
+
+  <Farm>
+    <Field id="1" startNumber="1"/>
+	<Field id="2" startNumber="6"/>
+    <Seed id="1"/>
+	<Seed id="7" startNumber="6" targetPlant="12"/>
+  </Farm>
+
+  <Factory countPosition="2">
+    <Machine id="1" startNumber="1"/>
+	<Machine id="4" targetNumber="2"/>
+  </Factory>
+
+  <Shop>
+    <Product id="7"/>
+	<Product id="19" startNumber="50" numberRequest="75"/>
+	<Product id="22" startNumber="50" numberRequest="75"/>
+  </Shop>
+
+  <City>
+    <Building id="0" name="staffhouse">
+      <Staff id="1" startNumber="true"/>
+      <Staff id="2" startNumber="true"/>
+	  <Staff id="3" startNumber="true"/>
+    </Building>
+  </City>
+  
+  <NewItem>   
+	<item type="staff" id="3"/>
+ </NewItem>
+</Missions>
+

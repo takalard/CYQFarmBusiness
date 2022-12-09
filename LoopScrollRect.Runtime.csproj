@@ -56,21 +56,21 @@
     <Analyzer Include="D:\Program\dev\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\LoopVerticalScrollRectMulti.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\LoopScrollSizeHelper.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\LoopScrollDataSource.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\LoopScrollPrefabSource.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\LoopScrollMultiDataSource.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\InitOnStart.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\LoopScrollRect.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\LoopScrollRectBase.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\LoopVerticalScrollRect.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\LoopHorizontalScrollRect.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\LoopHorizontalScrollRectMulti.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\LoopScrollRectMulti.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoopScrollRect\LoopVerticalScrollRectMulti.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoopScrollRect\LoopScrollSizeHelper.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoopScrollRect\LoopScrollDataSource.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoopScrollRect\LoopScrollPrefabSource.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoopScrollRect\LoopScrollMultiDataSource.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoopScrollRect\InitOnStart.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoopScrollRect\LoopScrollRect.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoopScrollRect\LoopScrollRectBase.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoopScrollRect\LoopVerticalScrollRect.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoopScrollRect\LoopHorizontalScrollRect.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoopScrollRect\LoopHorizontalScrollRectMulti.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoopScrollRect\LoopScrollRectMulti.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Game\Scripts\HotFix\UI\LoopScrollRect\LoopScrollRect.Runtime.asmdef" />
+    <None Include="Assets\Scripts\HotFix\UI\LoopScrollRect\LoopScrollRect.Runtime.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

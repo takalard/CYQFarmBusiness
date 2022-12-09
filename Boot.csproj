@@ -56,31 +56,31 @@
     <Analyzer Include="D:\Program\dev\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Game\Scripts\Boot\PatchView.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\EPatchStates.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\Manager\FsmManager\IFsmNode.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\FsmNode\FsmPatchInit.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\EPatchOperation.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\FsmNode\FsmUpdateStaticVersion.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\PatchEventMessageDefine.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\BundleStream.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\PatchEventDispatcher.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\Manager\EventManager\EventGroup.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\FsmNode\FsmCreateDownloader.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\FsmNode\FsmUpdateManifest.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\Boot.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\FsmNode\FsmDownloadWebFiles.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\FsmNode\FsmPatchDone.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\Manager\FsmManager\FsmManager.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\ConsoleToSceen.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\Manager\EventManager\EventManager.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\PatchWindow.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\PatchUpdater.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\PatchUpdater\FsmNode\FsmClearCache.cs" />
-    <Compile Include="Assets\Game\Scripts\Boot\Manager\EventManager\IEventMessage.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchView.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\EPatchStates.cs" />
+    <Compile Include="Assets\Scripts\Boot\Manager\FsmManager\IFsmNode.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\FsmNode\FsmPatchInit.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\EPatchOperation.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\FsmNode\FsmUpdateStaticVersion.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\PatchEventMessageDefine.cs" />
+    <Compile Include="Assets\Scripts\Boot\BundleStream.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\PatchEventDispatcher.cs" />
+    <Compile Include="Assets\Scripts\Boot\Manager\EventManager\EventGroup.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\FsmNode\FsmCreateDownloader.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\FsmNode\FsmUpdateManifest.cs" />
+    <Compile Include="Assets\Scripts\Boot\Boot.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\FsmNode\FsmDownloadWebFiles.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\FsmNode\FsmPatchDone.cs" />
+    <Compile Include="Assets\Scripts\Boot\Manager\FsmManager\FsmManager.cs" />
+    <Compile Include="Assets\Scripts\Boot\ConsoleToSceen.cs" />
+    <Compile Include="Assets\Scripts\Boot\Manager\EventManager\EventManager.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\PatchWindow.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\PatchUpdater.cs" />
+    <Compile Include="Assets\Scripts\Boot\PatchUpdater\FsmNode\FsmClearCache.cs" />
+    <Compile Include="Assets\Scripts\Boot\Manager\EventManager\IEventMessage.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Game\Scripts\Boot\Boot.asmdef" />
+    <None Include="Assets\Scripts\Boot\Boot.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

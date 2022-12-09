@@ -1,0 +1,11 @@
+﻿<FarmElement level="1">
+  <Element id="1" name="wheat" price="20" timeGrowup="102" yield="3-5-7-9"/>
+  <Element id="2" name="tomato" price="25" timeGrowup="102" yield="3-5-7-9"/>
+  <Element id="3" name="grapes" price="26" timeGrowup="102" yield="3-5-7-9"/>
+  <Element id="4" name="strawberry" price="27" timeGrowup="102" yield="3-5-7-9"/>
+  <Element id="5" name="chicken" price="31" timeGrowup="108" yield="3-5-7-9"/>
+  <Element id="6" name="pig" price="29" timeGrowup="108" yield="3-5-7-9"/>
+  <Element id="7" name="cow" price="30" timeGrowup="108" yield="3-5-7-9"/>
+  <Element id="8" name="fish" price="29" timeGrowup="108" yield="3-5-7-9"/>
+  <Element id="9" name="shrimp" price="30" timeGrowup="108" yield="3-5-7-9"/>
+</FarmElement>

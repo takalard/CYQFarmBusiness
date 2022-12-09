@@ -1,0 +1,62 @@
+<Missions level="15">
+
+  <Target startMoney="1060" timeMission="17" maxCustomer="80"/>
+  <Tip text="Sử dụng tòa nhà Technology để nâng cấp máy làm bánh." text1="Use Technology Building to upgrade bakery machine."/>
+  <Star twoStar="2000" threeStar="2700" reward="1-2-3"/>
+
+  <Farm>
+    <Field id="1" startNumber="11" maxLevel="2" startLevel="1"/>
+    <Field id="2" startNumber="6" maxLevel="2" startLevel="2"/>
+    <Field id="3" startNumber="4" maxLevel="4" startLevel="2"/>
+    <Seed id="1" startNumber="6"/>
+	<Seed id="4" startNumber="5"/>
+    <Seed id="7"/> 
+	<Seed id="8"/>
+  </Farm>
+
+  <Factory countPosition="4">
+    <Machine id="1" startNumber="2" maxLevel="2" targetLevel="2"/>
+	<Machine id="2"/>
+    <Machine id="3" startNumber="2"/>
+    <Machine id="4"/>	
+  </Factory>
+
+  <Shop>
+    <Product id="7"/>
+	<Product id="10" numberRequest="35" targetSell="15"/>
+	<Product id="12"/>
+	<Product id="17" numberRequest="45" targetSell="15"/>
+    <Product id="19"/>
+    <Product id="22"/>
+    <Weather startNumber="true"/>
+  </Shop>
+
+<City>
+    <Building id="0" name="staffhouse"  fail="true">
+      <Staff id="1"/>
+      <Staff id="2"/>
+      <Staff id="3"/>
+	</Building>
+	
+	 <Building id="3" name="research">
+      <Forms id="0"/>
+    </Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+	
+	<Building id="5" name="technology">
+    </Building>
+	
+</City>
+
+ <NewItem>
+	<item type="field" id="1" level="2"/>
+	<item type="field" id="2" level="2"/>
+	<item type="field" id="3" level="2"/>
+    <item type="machine" id="1" level="2"/>
+    <item type="product" id="10"/>
+    <item type="building" id="5"/>
+  </NewItem>
+
+  </Missions>

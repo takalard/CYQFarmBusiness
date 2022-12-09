@@ -1,0 +1,73 @@
+<Missions level="32">
+
+  <Target startMoney="940" timeMission="20" maxCustomer="44"/>  
+  <Tip text="Sử dụng tòa nhà Technology và Multimedia" text1="Use"/> 
+  <Star twoStar="3800" threeStar="4500" reward="1-1-2"/>
+
+  <Farm>
+  	<Field id="1" startNumber="0" startLevel="2" maxLevel="2"/>	
+    <Field id="2" startNumber="6" maxLevel="2"/>
+    <Field id="3" startNumber="3" maxLevel="2" />
+    <Seed id="1"/>
+	<Seed id="3"/>
+	<Seed id="4"/>
+	<Seed id="5" startNumber="4"/>
+    <Seed id="7" startNumber="2"/> 
+	<Seed id="8" startNumber="3"/>
+  </Farm>
+
+  <Factory countPosition="4">
+    <Machine id="1" maxLevel="2" />
+	<Machine id="2" maxLevel="2" startNumber="3"/>
+    <Machine id="3" maxLevel="2" />
+    <Machine id="4" startNumber="1"/>	    
+  </Factory>
+
+  <Shop targetSells="48">
+    <Product id="7"/>
+	<Product id="10" />
+	<Product id="12" numberRequest="10"/>
+	<Product id="13" numberRequest="15"/>
+	<Product id="16" />
+	<Product id="17" />
+    <Product id="19" numberRequest="15"/>
+    <Product id="22"/>
+    <Weather startNumber="true"/>
+  </Shop>
+
+<City>
+    <Building id="0" name="staffhouse" fail="true">
+      <Staff id="1" maxLevel="2"/>
+      <Staff id="2" maxLevel="2"/>
+      <Staff id="3" maxLevel="2"/>
+	  <Staff id="4"/>
+	</Building>
+	
+	 <Building id="1" name="supermarket">
+      <Product id="7"/>
+	  <Product id="10"/>
+	  <Product id="12"/>
+	  <Product id="13"/>
+	  <Product id="16"/>
+	  <Product id="17"/>	  
+	  <Product id="19"/>
+	  <Product id="22"/>
+    </Building>
+	
+	 <Building id="2" name="media">
+      <Forms id="0"/>
+	 </Building>
+	  
+	 <Building id="3" name="research">
+      <Forms id="0"/>
+    </Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+	
+	<Building id="5" name="technology">
+    </Building>
+	
+</City>
+ 
+  </Missions>

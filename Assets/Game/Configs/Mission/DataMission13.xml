@@ -1,0 +1,48 @@
+<Missions level="13">
+
+  <Target startMoney="1300" timeMission="15" maxCustomer="52" startScreen="2"/>
+  <Tip text="Khi có cảnh báo ở nhà máy, hãy quay về để sữa chữa máy." text1="If machine is broken, you should come back to Factory and fix it."/>
+  <Star twoStar="1920" threeStar="3200" reward="1-2-3"/>
+
+  <Farm>
+    <Field id="1" startNumber="11" />
+    <Field id="2" startNumber="5" />  
+    <Field id="3" startNumber="4" />  
+    <Seed id="1" startNumber="7"/>
+	<Seed id="4" startNumber="4"/>
+    <Seed id="7" startNumber="5"/> 
+    <Seed id="8"/>
+  </Farm>
+
+  <Factory countPosition="5" fail=" true" >
+    <Machine id="1" startNumber="1"/>
+	<Machine id="2"/>
+    <Machine id="3"/>
+    <Machine id="4"/>	
+  </Factory>
+
+  <Shop>
+    <Product id="7" numberRequest="20" targetProduction="16"/>
+	<Product id="12"/>
+	<Product id="17" numberRequest="20" targetProduction="16"/>
+    <Product id="19"/>
+    <Product id="22" numberRequest="12" targetProduction="8"/>	
+	<Weather startNumber="true"/>
+  </Shop>
+
+<City>
+    <Building id="0" name="staffhouse">
+      <Staff id="1"/>
+      <Staff id="2"/>
+      <Staff id="3"/>	
+	</Building>
+	
+	 <Building id="3" name="research">
+      <Forms id="0"/>
+    </Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+</City>
+
+  </Missions>

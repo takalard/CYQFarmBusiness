@@ -1,0 +1,52 @@
+<Missions level="11">
+
+  <Target startMoney="1000" targetCustomerRate="250" targetMoney="3000" maxCustomer="95" timeMission="15"/>
+  <Tip text="Bạn nên sử dụng tòa nhà Market Research." text1="You should use Market Research Building."/>
+  <Star twoStar="4000" threeStar="500" reward="1-2-3"/>
+
+  <Farm>
+    <Field id="1" startNumber="9" />
+    <Field id="2" startNumber="6" />
+    <Field id="3" startNumber="3" />
+    <Seed id="1"/>
+	<Seed id="4" startNumber="9"/>
+    <Seed id="7" startNumber="6"/> 
+	<Seed id="8" startNumber="3"/>
+  </Farm>
+
+  <Factory countPosition="6" >
+    <Machine id="1"/>
+	<Machine id="2" startNumber="1"/>
+    <Machine id="3" startNumber="3"/>
+    <Machine id="4" startNumber="2"/>	
+  </Factory>
+
+  <Shop>
+    <Product id="7"/>
+	<Product id="12" numberRequest="15"/>
+	<Product id="17" numberRequest="47"/>
+    <Product id="19" numberRequest="33"/>
+    <Product id="22"/>
+	<Weather startNumber="true"/>
+  </Shop>
+
+<City>
+    <Building id="0" name="staffhouse">
+      <Staff id="1"/>
+      <Staff id="2"/>
+      <Staff id="3"/>
+	</Building>
+	
+	 <Building id="3" name="research">
+      <Forms id="0"/>
+    </Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+</City>
+
+<NewItem> 
+    <item type="building" id="3"/>
+    <item type="method" id="30"/>
+  </NewItem>
+  </Missions>

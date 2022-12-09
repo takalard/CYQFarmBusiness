@@ -56,30 +56,36 @@
     <Analyzer Include="D:\Program\dev\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\LoginView.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\CatLib\ProviderFileSystem.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\Fsm\FsmNode\FsmMain.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\Fsm\GameFsmUpdater.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\GameEntry.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\Mission\ItemMission.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\MissionCell.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\CatLib\Config\Bootstraps.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\Manager\GameFsmManager.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\Utils\UIUtils.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\CatLib\Config\Providers.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\MainView.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\Manager\JsonConfigManager.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\Mission\Plugin\DataCache.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\MissionLevel.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\Manager\GameEventManager.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\Fsm\FsmNode\FsmLogin.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\CatLib\Main.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\Fsm\EGameStates.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\Mission\DialogMission.cs" />
-    <Compile Include="Assets\Game\Scripts\HotFix\UI\FarmView.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\LoginView.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\Mission\DialogMission.cs" />
+    <Compile Include="Assets\Scripts\HotFix\CatLib\ProviderFileSystem.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Fsm\FsmNode\FsmMain.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Fsm\GameFsmUpdater.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Mission\Item\ItemAbstract.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\FarmView.cs" />
+    <Compile Include="Assets\Scripts\HotFix\GameEntry.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\Mission\ItemMission.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\MissionCell.cs" />
+    <Compile Include="Assets\Scripts\HotFix\CatLib\Config\Bootstraps.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Manager\GameFsmManager.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Utils\UIUtils.cs" />
+    <Compile Include="Assets\Scripts\HotFix\CatLib\Config\Providers.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\MainView.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Manager\JsonConfigManager.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\Mission\Plugin\DataCache.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Farm\FarmDataMission.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Common\ReadXML.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Farm\Breed.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Farm\FarmCenterScript.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Common\MissionData.cs" />
+    <Compile Include="Assets\Scripts\HotFix\UI\MissionLevel.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Manager\GameEventManager.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Fsm\FsmNode\FsmLogin.cs" />
+    <Compile Include="Assets\Scripts\HotFix\CatLib\Main.cs" />
+    <Compile Include="Assets\Scripts\HotFix\Fsm\EGameStates.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Game\Scripts\HotFix\HotFix.asmdef" />
+    <None Include="Assets\Scripts\HotFix\HotFix.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

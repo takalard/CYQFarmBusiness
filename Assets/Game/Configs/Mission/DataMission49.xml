@@ -1,0 +1,78 @@
+<Missions level="49">
+
+  <Target startMoney="900" timeMission="15" maxCustomer="60"/>   
+  <Star twoStar="4000" threeStar="5000" reward="1-1-2"/>
+
+  <Farm>
+    <Field id="1" startNumber="10" maxLevel="3" startLevel="2" targetLevel="3" />
+    <Field id="2" startNumber="6" maxLevel="2" startLevel="2"/>
+    <Field id="3" startNumber="4" maxLevel="2" startLevel="2"/>
+    <Seed id="1" startNumber="6"/>
+	<Seed id="3" startNumber="2"/>
+	<Seed id="4" startNumber="2"/>
+	<Seed id="5"/>
+    <Seed id="7"/> 
+	<Seed id="8"/>
+  </Farm>
+
+   <Factory countPosition="5"  fail ="true">
+    <Machine id="1" maxLevel="3" startLevel="3" startNumber="3"/>
+	<Machine id="2" maxLevel="2" />
+    <Machine id="3" maxLevel="2" startLevel="2" startNumber="2"/>
+    <Machine id="4" maxLevel="2" />	
+  </Factory>
+
+  <Shop targetSells="45">
+    <Product id="7" numberRequest="12"/>
+    <Product id="9" numberRequest="12" />
+	<Product id="10" numberRequest="12"/>
+	<Product id="12"  />
+	<Product id="13" />
+	<Product id="16" numberRequest="12" />
+	<Product id="17" numberRequest="12" />
+	<Product id="18" />
+    <Product id="19" />
+    <Product id="22" />
+    <Weather startNumber="true"/>
+  </Shop>
+
+<City>
+    <Building id="0" name="staffhouse">
+      <Staff id="1" maxLevel="2" />
+      <Staff id="2" maxLevel="2" />
+      <Staff id="3" maxLevel="2" />
+	  <Staff id="4" maxLevel="2"/>
+	</Building>
+	
+	 <Building id="1" name="supermarket">
+      <Product id="7"/>
+      <Product id="9"/>
+	  <Product id="10"/>
+	  <Product id="12"/>
+	  <Product id="13"/>
+	  <Product id="16"/>
+	  <Product id="17"/>
+	  <Product id="18"/>	  
+	  <Product id="19"/>
+	  <Product id="22"/>	
+    </Building>
+	
+	 <Building id="2" name="media">
+      <Forms id="0"/>
+      <Forms id="1"/>
+	 </Building>
+	  
+	  <Building id="3" name="research">
+      <Forms id="0"/>
+      <Forms id="1"/>
+    </Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+	
+	<Building id="5" name="technology">
+    </Building>
+	
+</City>
+ 
+  </Missions>

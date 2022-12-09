@@ -1,0 +1,7 @@
+﻿<Data>
+  <guide id="1" textV="Thành phố của chúng ta vừa xuất hiện một tòa nhà rất thú vị. Hãy cùng tôi tới thành phố nhé!"
+         textE="Your City just had a excited building. Come with me!"/>
+  <guide id="2" textV="xxx" textE="xxx">
+    <hand posi="580;-290" size="40"/>
+  </guide>
+</Data>

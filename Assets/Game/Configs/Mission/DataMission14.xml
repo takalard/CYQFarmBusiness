@@ -1,0 +1,47 @@
+<Missions level="14">
+
+  <Target startMoney="500" targetCustomerRate="260" timeMission="16" startScreen="3" maxCustomer="80"/>
+  <Tip text="Sản xuất những sản phẩm đã có sẵn trong cửa hàng: sữa tươi, dâu tây, cá." text1="You should produce products which available in the shop: milk bottle, strawberry, grilled fish."/>
+  <Star twoStar="2500" threeStar="4000" reward="1-2-3"/>
+
+  <Farm>
+    <Field id="1" startNumber="9" />
+    <Field id="2" startNumber="5" />
+    <Field id="3" startNumber="3" />
+    <Seed id="1"/>
+	<Seed id="4" startNumber="9"/>
+    <Seed id="7" startNumber="5"/> 
+	<Seed id="8" startNumber="3"/>
+  </Farm>
+
+  <Factory countPosition="4" fail=" true">
+    <Machine id="1"/>
+	<Machine id="2" startNumber="1"/>
+    <Machine id="3" startNumber="2"/>
+    <Machine id="4" startNumber="1"/>	
+  </Factory>
+
+  <Shop targetSells="50">
+    <Product id="7"/>
+	<Product id="12" startNumber="5" numberRequest="20"/>
+	<Product id="17" startNumber="10" numberRequest="40"/>
+    <Product id="19" startNumber="5" numberRequest="20"/>
+    <Product id="22"/>
+  </Shop>
+
+<City>
+    <Building id="0">
+      <Staff id="1"/>
+      <Staff id="2"/>
+      <Staff id="3"/>	
+	</Building>
+	
+	 <Building id="3" name="research">
+      <Forms id="0"/>
+    </Building>
+	
+	<Building id="4" name="lottery">
+    </Building>  	
+</City>
+
+  </Missions>
